@@ -1,0 +1,3053 @@
+# Copyright (C) 2017 WP Support Plus
+# This file is distributed under the same license as the WP Support Plus package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Support Plus 8.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-support-plus-"
+"responsive-ticket-system\n"
+"POT-Creation-Date: 2017-03-07 11:45:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: asset/lib/EDD_SL_Plugin_Updater.php:201
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: asset/lib/EDD_SL_Plugin_Updater.php:209
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: asset/lib/EDD_SL_Plugin_Updater.php:369
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: asset/lib/EDD_SL_Plugin_Updater.php:369
+msgid "Error"
+msgstr ""
+
+#: includes/admin/add_ons.php:5
+msgid "Add-ons for WP Support Plus"
+msgstr ""
+
+#: includes/admin/add_ons.php:14
+msgid "View Details"
+msgstr ""
+
+#: includes/admin/add_ons.php:24 includes/admin/add_ons.php:34
+#: includes/admin/add_ons.php:44 includes/admin/add_ons.php:54
+#: includes/admin/add_ons.php:64 includes/admin/add_ons.php:74
+#: includes/admin/add_ons.php:84 includes/admin/add_ons.php:94
+msgid "Get this Add-on"
+msgstr ""
+
+#: includes/admin/admin.php:40 includes/admin/getFrontEndDisplay.php:9
+msgid "FAQ"
+msgstr ""
+
+#: includes/admin/admin.php:41 includes/admin/create_new_ticket.php:304
+#: includes/admin/create_new_ticket.php:413
+#: includes/admin/getIndivisualTicket.php:134
+#: includes/admin/getIndivisualTicket.php:670
+#: includes/admin/getIndivisualTicketFront.php:645
+#: includes/admin/installation.php:1283 includes/admin/showcanned.php:56
+msgid "Canned Reply"
+msgstr ""
+
+#: includes/admin/admin.php:42 includes/admin/statistics.php:11
+msgid "Statistics"
+msgstr ""
+
+#: includes/admin/admin.php:43
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/admin.php:44 includes/admin/advanced_settings.php:10
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/admin/admin.php:45 includes/admin/admin.php:278
+msgid "Email Templates"
+msgstr ""
+
+#: includes/admin/admin.php:46
+msgid "Add-ons"
+msgstr ""
+
+#: includes/admin/admin.php:47
+msgid "Doc & Support"
+msgstr ""
+
+#: includes/admin/admin.php:67 includes/shortcode.php:59
+msgid "Please Enter all required fields"
+msgstr ""
+
+#: includes/admin/admin.php:68 includes/shortcode.php:60
+msgid "Reply can not be empty!"
+msgstr ""
+
+#: includes/admin/admin.php:69 includes/shortcode.php:61
+msgid "Are you sure to delete this ticket?"
+msgstr ""
+
+#: includes/admin/admin.php:70
+msgid "Are you sure to clone this ticket?"
+msgstr ""
+
+#: includes/admin/admin.php:71
+msgid "Are you sure to delete these tickets?"
+msgstr ""
+
+#: includes/admin/admin.php:72 includes/shortcode.php:63
+msgid "Can not be undone"
+msgstr ""
+
+#: includes/admin/admin.php:77
+msgid "Clone Ticket ID:"
+msgstr ""
+
+#: includes/admin/admin.php:78 includes/admin/admin.php:144
+#: includes/admin/admin.php:192 includes/shortcode.php:70
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/admin/admin.php:79 includes/shortcode.php:71
+msgid "Close Ticket ID:"
+msgstr ""
+
+#: includes/admin/admin.php:80 includes/shortcode.php:73
+msgid "Please enter valid email address!"
+msgstr ""
+
+#: includes/admin/admin.php:81 includes/shortcode.php:74
+msgid "Not Applicable"
+msgstr ""
+
+#: includes/admin/admin.php:84 includes/shortcode.php:79
+msgid "Are you sure to add note?"
+msgstr ""
+
+#: includes/admin/admin.php:86 includes/shortcode.php:84
+msgid "File Size limit exceeded! Allowed limit:"
+msgstr ""
+
+#: includes/admin/admin.php:86 includes/admin/getAdvancedSettings.php:219
+#: includes/shortcode.php:84
+msgid "MB"
+msgstr ""
+
+#: includes/admin/admin.php:87 includes/shortcode.php:85
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/admin.php:88 includes/shortcode.php:82
+msgid "Uploading attachment, please wait!"
+msgstr ""
+
+#: includes/admin/admin.php:89 includes/shortcode.php:86
+msgid "Reset form data??"
+msgstr ""
+
+#: includes/admin/admin.php:90
+msgid "Are you sure to delete this thread?"
+msgstr ""
+
+#: includes/admin/admin.php:93
+msgid "Are you sure to restore ticket?"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (WP Support Plus 8.0.3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/admin/admin.php:107
+msgid "WP Support Plus"
+msgstr ""
+
+#: includes/admin/admin.php:108 includes/loggedInUser.php:24
+#: includes/loggedInUserAllTickets.php:20
+#: includes/loggedInUserCreateTicket.php:12
+msgid "Welcome"
+msgstr ""
+
+#: includes/admin/admin.php:140 includes/admin/admin.php:188
+msgid "Please insert category name!"
+msgstr ""
+
+#: includes/admin/admin.php:141 includes/admin/admin.php:189
+msgid "Please insert adminstrator email address!"
+msgstr ""
+
+#: includes/admin/admin.php:142 includes/admin/admin.php:190
+msgid "Please insert menu text"
+msgstr ""
+
+#: includes/admin/admin.php:143 includes/admin/admin.php:191
+msgid "Please insert Redirect URL"
+msgstr ""
+
+#: includes/admin/admin.php:145 includes/admin/admin.php:193
+msgid "Please insert field label!"
+msgstr ""
+
+#: includes/admin/admin.php:146
+msgid "Please insert field options!"
+msgstr ""
+
+#: includes/admin/admin.php:147
+msgid "Please select user"
+msgstr ""
+
+#: includes/admin/admin.php:148
+msgid "Please test your IMAP connection first!"
+msgstr ""
+
+#: includes/admin/admin.php:158 includes/admin/admin.php:208
+msgid "WP Support Plus Settings"
+msgstr ""
+
+#: includes/admin/admin.php:194
+msgid ""
+" All the tickets belonging to this status will get moved to pending status"
+msgstr ""
+
+#: includes/admin/admin.php:195
+msgid "Please insert integer value"
+msgstr ""
+
+#: includes/admin/admin.php:196
+msgid ""
+" All the tickets belonging to this priority will get moved to normal priority"
+msgstr ""
+
+#: includes/admin/admin.php:197
+msgid "Missing From date or To date!"
+msgstr ""
+
+#: includes/admin/admin.php:198
+msgid "Please select at least one image!"
+msgstr ""
+
+#: includes/admin/admin.php:234
+msgid "WP Support Plus Statistics"
+msgstr ""
+
+#: includes/admin/admin.php:250
+msgid "WP Support Plus FAQ"
+msgstr ""
+
+#: includes/admin/admin.php:269
+msgid "Are you sure to reset this settings?"
+msgstr ""
+
+#: includes/admin/admin.php:297
+msgid "Please enter Canned reply title!"
+msgstr ""
+
+#: includes/admin/admin.php:306
+msgid "WP Support Plus Canned Reply"
+msgstr ""
+
+#: includes/admin/admin_settings.php:6 includes/admin/installation.php:186
+msgid "General"
+msgstr ""
+
+#: includes/admin/admin_settings.php:7 includes/admin/getCustomFields.php:16
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/admin_settings.php:8
+msgid "Email Notification"
+msgstr ""
+
+#: includes/admin/admin_settings.php:9
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/admin/admin_settings.php:10
+msgid "Custom Slider Menus"
+msgstr ""
+
+#: includes/admin/admin_settings.php:11
+msgid "Role Management"
+msgstr ""
+
+#: includes/admin/admin_settings.php:12
+msgid "FAQ Categories"
+msgstr ""
+
+#: includes/admin/admin_settings.php:13
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/admin_settings.php:14
+msgid "Licenses"
+msgstr ""
+
+#: includes/admin/advanced_settings.php:11
+msgid "Custom Status"
+msgstr ""
+
+#: includes/admin/advanced_settings.php:12
+msgid "Custom Priority"
+msgstr ""
+
+#: includes/admin/advanced_settings.php:13
+msgid "Re-Order Fields"
+msgstr ""
+
+#: includes/admin/advanced_settings.php:15
+msgid "Front-End Display"
+msgstr ""
+
+#: includes/admin/advanced_settings.php:16
+msgid "Custom Filter FrontEnd"
+msgstr ""
+
+#: includes/admin/advanced_settings.php:17
+msgid "CKEditor"
+msgstr ""
+
+#: includes/admin/advanced_settings.php:18
+msgid "Change Icons"
+msgstr ""
+
+#: includes/admin/ajax.php:13 includes/wpspSubmitLinkForm.php:8
+#: includes/wpspSubmitLinkForm.php:15
+msgid "No robots allowed!"
+msgstr ""
+
+#: includes/admin/ajax.php:18 includes/admin/ajax.php:41
+#: includes/wpspSubmitLinkForm.php:20
+msgid "Javascript Injection Not Allowed!"
+msgstr ""
+
+#: includes/admin/ajax.php:54
+msgid "Not Allowed!"
+msgstr ""
+
+#: includes/admin/attachment/uploadAttachment.php:7
+msgid "error"
+msgstr ""
+
+#: includes/admin/attachment/uploadAttachment.php:22
+msgid "Error: file format not supported!"
+msgstr ""
+
+#: includes/admin/attachment/uploadAttachment.php:29
+msgid "Error: file size exceeded allowed limit!"
+msgstr ""
+
+#: includes/admin/attachment/uploadAttachment.php:59 includes/shortcode.php:80
+msgid "done"
+msgstr ""
+
+#: includes/admin/bulkAssignAgent.php:23
+#: includes/admin/getIndivisualTicketFront.php:527
+#: includes/admin/getTicketAssignment.php:41
+msgid "Assign to"
+msgstr ""
+
+#: includes/admin/bulkAssignAgent.php:34
+#: includes/admin/bulkChangeStatus.php:92
+#: includes/admin/getChangeTicketStatus.php:172
+#: includes/admin/getTicketAssignment.php:54
+#: includes/admin/getTicketRaisedByUser.php:73
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/bulkAssignAgent.php:35
+#: includes/admin/bulkChangeStatus.php:93
+#: includes/admin/getChangeTicketStatus.php:171
+#: includes/admin/getTicketAssignment.php:53
+#: includes/admin/getTicketRaisedByUser.php:72
+#: includes/admin/indi_ticket_backend_del_confirm.php:26
+#: includes/admin/submit_reply_confirm_box.php:17
+#: includes/admin/ticket_filter.php:332
+#: includes/admin/ticket_filter_front.php:265
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/bulkChangeStatus.php:26
+#: includes/admin/getChangeTicketStatus.php:46
+#: includes/admin/getCustomFilterFrontEnd.php:102
+#: includes/admin/getFieldsReorderSettings.php:24
+#: includes/admin/getFrontEndDisplay.php:98
+#: includes/admin/getFrontEndTicket.php:272
+#: includes/admin/getTicketListFieldSettings.php:30
+#: includes/admin/getTicketListFieldSettings.php:85
+#: includes/admin/getTicketListFieldSettings.php:319
+#: includes/admin/getTicketListFieldSettings.php:373
+#: includes/admin/getTicketsByFilter.php:515
+#: includes/admin/installation.php:1288
+#: includes/licenses/getAddOnLicenses.php:19
+msgid "Status"
+msgstr ""
+
+#: includes/admin/bulkChangeStatus.php:30
+#: includes/admin/bulkChangeStatus.php:67
+#: includes/admin/bulkChangeStatus.php:81
+msgid "Select"
+msgstr ""
+
+#: includes/admin/bulkChangeStatus.php:63
+#: includes/admin/getFieldsReorderSettings.php:176
+#: includes/admin/getFrontEndDisplay.php:104
+#: includes/admin/getFrontEndFAQ.php:46
+#: includes/admin/getTicketListFieldSettings.php:162
+#: includes/admin/getTicketListFieldSettings.php:450
+#: includes/admin/installation.php:1289
+msgid "Category"
+msgstr ""
+
+#: includes/admin/bulkChangeStatus.php:77
+#: includes/admin/getFieldsReorderSettings.php:197
+#: includes/admin/getFrontEndDisplay.php:110
+#: includes/admin/getTicketListFieldSettings.php:198
+#: includes/admin/getTicketListFieldSettings.php:486
+#: includes/admin/installation.php:1290
+msgid "Priority"
+msgstr ""
+
+#: includes/admin/create_new_ticket.php:144 includes/guestTicketForm.php:148
+#: includes/guestTicketForm.php:235
+msgid "Click here to select date"
+msgstr ""
+
+#: includes/admin/create_new_ticket.php:232
+msgid "Click here to select the date"
+msgstr ""
+
+#: includes/admin/create_new_ticket.php:267
+#: includes/admin/getTicketRaisedByUser.php:37
+msgid "Registered"
+msgstr ""
+
+#: includes/admin/create_new_ticket.php:268
+#: includes/admin/getTicketRaisedByUser.php:38
+#: includes/admin/ticket_filter.php:165
+msgid "Guest"
+msgstr ""
+
+#: includes/admin/create_new_ticket.php:274
+#: includes/admin/getTicketRaisedByUser.php:47
+msgid "Change User"
+msgstr ""
+
+#: includes/admin/create_new_ticket.php:377
+msgid "Don't Notify Owner"
+msgstr ""
+
+#: includes/admin/create_new_ticket.php:390 includes/guestTicketForm.php:347
+msgid "Reset Form"
+msgstr ""
+
+#: includes/admin/create_new_ticket.php:399
+#: includes/admin/getTicketRaisedByUser.php:67
+msgid "Select User"
+msgstr ""
+
+#: includes/admin/create_new_ticket.php:405
+#: includes/admin/create_new_ticket.php:445
+#: includes/admin/getIndivisualTicket.php:704
+#: includes/admin/getIndivisualTicketFront.php:679
+#: includes/admin/showcanned.php:85
+msgid "Close"
+msgstr ""
+
+#: includes/admin/create_new_ticket.php:424 includes/admin/editcanned.php:19
+#: includes/admin/getIndivisualTicket.php:681
+#: includes/admin/getIndivisualTicketFront.php:656
+#: includes/admin/showcanned.php:19
+msgid "Title"
+msgstr ""
+
+#: includes/admin/create_new_ticket.php:439
+#: includes/admin/getIndivisualTicket.php:698
+#: includes/admin/getIndivisualTicketFront.php:673
+#: includes/admin/showcanned.php:49
+msgid "No Reply Found"
+msgstr ""
+
+#: includes/admin/create_new_ticket.php:442
+#: includes/admin/getIndivisualTicket.php:701
+#: includes/admin/getIndivisualTicketFront.php:676
+msgid "Previous"
+msgstr ""
+
+#: includes/admin/create_new_ticket.php:443
+#: includes/admin/getIndivisualTicket.php:702
+#: includes/admin/getIndivisualTicketFront.php:677
+msgid "Next"
+msgstr ""
+
+#: includes/admin/display_ticket.php:12
+#: includes/admin/getGeneralSettings.php:263
+msgid "Agent Settings"
+msgstr ""
+
+#: includes/admin/display_ticket.php:13 includes/loggedInUser.php:53
+msgid "Dashboard"
+msgstr ""
+
+#: includes/admin/editThread.php:9
+msgid "Edit Thread"
+msgstr ""
+
+#: includes/admin/editThread.php:13 includes/admin/editcanned.php:33
+#: includes/admin/getcannedreply.php:20
+msgid "Submit"
+msgstr ""
+
+#: includes/admin/editcanned.php:6
+msgid "Edit Canned Reply"
+msgstr ""
+
+#: includes/admin/editcanned.php:22 includes/admin/getcannedreply.php:10
+msgid "Reply:"
+msgstr ""
+
+#: includes/admin/editcanned.php:24 includes/admin/getcannedreply.php:12
+msgid "Visibility:"
+msgstr ""
+
+#: includes/admin/emailTemplates.php:11
+#: includes/admin/getFrontEndDisplay.php:32
+#: includes/admin/getIndivisualTicket.php:129
+#: includes/admin/installation.php:1282
+#: includes/admin/ticketActionDashboard.php:20
+msgid "Change Status"
+msgstr ""
+
+#: includes/admin/emailTemplates.php:12
+#: includes/admin/getIndivisualTicket.php:140
+#: includes/admin/getIndivisualTicket.php:145
+#: includes/admin/installation.php:1284
+#: includes/admin/ticketActionDashboard.php:29
+#: includes/admin/ticketActionDashboard.php:40
+msgid "Assign Agent"
+msgstr ""
+
+#: includes/admin/faq_filter_front.php:10
+msgid "Category:"
+msgstr ""
+
+#: includes/admin/faq_filter_front.php:13
+#: includes/admin/getRollManagementSettings.php:55
+#: includes/admin/ticket_filter.php:117 includes/admin/ticket_filter.php:163
+#: includes/admin/ticket_filter.php:178 includes/admin/ticket_filter.php:201
+#: includes/admin/ticket_filter.php:229 includes/admin/ticket_filter.php:292
+#: includes/admin/ticket_filter_front.php:119
+#: includes/admin/ticket_filter_front.php:167
+#: includes/admin/ticket_filter_front.php:215
+msgid "All"
+msgstr ""
+
+#: includes/admin/faq_filter_front.php:28 includes/admin/ticket_filter.php:328
+#: includes/admin/ticket_filter_front.php:252
+msgid "Search..."
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:17
+#: includes/admin/getGeneralSettings.php:196
+msgid "Guest Ticket"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:18
+msgid "This message will be dispayed when a new ticket is submitted from guest"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:24
+msgid "Redirect to below link after submit(above message wont display)"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:33
+msgid "Ticket ID Prefix"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:34
+msgid ""
+"If you set SRN, [Ticket #123456] will become [Ticket SRN123456] whereever "
+"applicable. Please don't leave blank."
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:39
+msgid "Dashboard Menu Label"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:40
+msgid ""
+"This is applicable for dashboard menu title only. Please don't leave blank."
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:45
+#: includes/admin/installation.php:834 includes/admin/installation.php:907
+#: includes/admin/installation.php:965 includes/admin/installation.php:1026
+#: includes/admin/resetETAssignAgent.php:18
+#: includes/admin/resetETChangeTicketStatus.php:18
+#: includes/admin/resetETDeleteTicket.php:18
+#: includes/admin/resetETReplyTicket.php:8
+msgid "Ticket Status"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:46
+msgid ""
+"This is applicable for all pending tickets only. Please leave blank to "
+"disable this feature."
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:47
+msgid "All pending tickets will automatically get closed after"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:47
+msgid "days"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:51
+msgid "Reply Form Position"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:52
+msgid "Above Threads"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:54
+msgid "Below Threads"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:57
+msgid "Shortcode Used In"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:58
+msgid "Default Wordpress Editor"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:60
+msgid "Page Builder"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:63
+msgid "Accordion View"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:64
+#: includes/admin/getAdvancedSettings.php:76
+#: includes/admin/getAdvancedSettings.php:163
+#: includes/admin/getAdvancedSettings.php:206
+#: includes/admin/getETAssignAgent.php:31
+#: includes/admin/getETChangeTicketStatus.php:33
+#: includes/admin/getETCreateNewTicket.php:30
+#: includes/admin/getETCreateNewTicket.php:47
+#: includes/admin/getETDeleteTicket.php:29
+#: includes/admin/getETReplayTicket.php:31
+#: includes/admin/getFieldsReorderSettings.php:65
+#: includes/admin/getFieldsReorderSettings.php:68
+#: includes/admin/getFieldsReorderSettings.php:87
+#: includes/admin/getFieldsReorderSettings.php:90
+#: includes/admin/getFieldsReorderSettings.php:110
+#: includes/admin/getFieldsReorderSettings.php:113
+#: includes/admin/getFieldsReorderSettings.php:133
+#: includes/admin/getFieldsReorderSettings.php:136
+#: includes/admin/getFieldsReorderSettings.php:158
+#: includes/admin/getFieldsReorderSettings.php:161
+#: includes/admin/getFieldsReorderSettings.php:180
+#: includes/admin/getFieldsReorderSettings.php:183
+#: includes/admin/getFieldsReorderSettings.php:201
+#: includes/admin/getFieldsReorderSettings.php:204
+#: includes/admin/getFieldsReorderSettings.php:222
+#: includes/admin/getFieldsReorderSettings.php:225
+#: includes/admin/getFrontEndDisplay.php:10
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:66
+#: includes/admin/getAdvancedSettings.php:78
+#: includes/admin/getAdvancedSettings.php:165
+#: includes/admin/getAdvancedSettings.php:208
+#: includes/admin/getETAssignAgent.php:32
+#: includes/admin/getETChangeTicketStatus.php:34
+#: includes/admin/getETCreateNewTicket.php:32
+#: includes/admin/getETCreateNewTicket.php:48
+#: includes/admin/getETDeleteTicket.php:30
+#: includes/admin/getETReplayTicket.php:32
+#: includes/admin/getFieldsReorderSettings.php:66
+#: includes/admin/getFieldsReorderSettings.php:69
+#: includes/admin/getFieldsReorderSettings.php:88
+#: includes/admin/getFieldsReorderSettings.php:91
+#: includes/admin/getFieldsReorderSettings.php:111
+#: includes/admin/getFieldsReorderSettings.php:114
+#: includes/admin/getFieldsReorderSettings.php:134
+#: includes/admin/getFieldsReorderSettings.php:137
+#: includes/admin/getFieldsReorderSettings.php:159
+#: includes/admin/getFieldsReorderSettings.php:162
+#: includes/admin/getFieldsReorderSettings.php:181
+#: includes/admin/getFieldsReorderSettings.php:184
+#: includes/admin/getFieldsReorderSettings.php:202
+#: includes/admin/getFieldsReorderSettings.php:205
+#: includes/admin/getFieldsReorderSettings.php:223
+#: includes/admin/getFieldsReorderSettings.php:226
+#: includes/admin/getFrontEndDisplay.php:12
+msgid "Disable"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:69
+msgid "Ticket Id"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:70
+msgid "Sequential"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:72
+msgid "Random"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:75
+msgid "Frontend Logout (above support plus functionality)"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:81
+msgid "Ticket Link Page/Post"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:83
+#: includes/admin/getGeneralSettings.php:15
+msgid "Select Page/Post"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:101
+#: includes/admin/getGeneralSettings.php:33
+msgid "Use shortcode"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:101
+#: includes/admin/getGeneralSettings.php:33
+msgid "in selected page/post above."
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:104
+msgid "Hide Selected Status Tickets on Front-end"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:118
+msgid "Message for Ticket URL screen for above selected status:"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:128
+msgid "Date Custom Field1"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:129
+msgid "Select Date Format:"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:134
+msgid "dd-mm-yy"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:135
+msgid "mm-dd-yy"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:136
+msgid "yy-mm-dd"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:137
+msgid "yy-dd-mm"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:138
+msgid "mm-yy-dd"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:139
+msgid "dd-yy-mm"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:148
+msgid "Hide Selected Status Tickets on Back-end"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:149
+msgid "Select Statuses"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:149
+msgid "for hiding tickets from back-end"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:162
+msgid "Admin Bar Link"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:168
+msgid "Default Tab"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:173
+msgid "Select Tab:"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:176
+#: includes/admin/installation.php:532
+msgid "Tickets"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:177
+#: includes/admin/installation.php:533
+msgid "Create New Ticket"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:178 includes/guestTicketForm.php:50
+#: includes/loggedInUser.php:49
+msgid "FAQs"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:188
+#: includes/admin/getIndivisualTicket.php:172
+#: includes/admin/getIndivisualTicket.php:176
+#: includes/admin/installation.php:1324
+msgid "Change Raised By"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:189
+msgid "This will enable"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:189
+msgid "ability to modify raised by for tickets"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:205
+msgid "Email Reply Above"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:211
+msgid "Redirect after ticket update"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:212
+msgid "Applicable when you open ticket and perform any action to it"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:213
+msgid "Show Ticket List"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:215
+msgid "Stay in ticket open window"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:218
+msgid "Attachment Settings"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:219
+msgid "Attachment maximum file size"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:221
+msgid "Download Attachment"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:223
+msgid "Try opening in browser with direct attachment url"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:225
+msgid "Attachment Color Setting"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:229
+msgid "Attachment Background Color : "
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:237
+msgid "Attachment Progress Bar Color :  "
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:246
+msgid "Bootstrap Files"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:247
+msgid "Uncheck if there is Bootstrap files conflict on frontend"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:251
+msgid "Bootstrap CSS File"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:255
+msgid "Bootstrap JS File"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:260
+msgid "Main Ticket Label"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:261
+msgid "In order to change Ticket Label, must translate below phrases"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:264
+msgid "Phrase"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:265
+msgid "Translation"
+msgstr ""
+
+#: includes/admin/getAdvancedSettings.php:350
+#: includes/admin/getAgentSettings.php:55
+#: includes/admin/getCKEditorSettings.php:23
+#: includes/admin/getCustomCSSSettings.php:15
+#: includes/admin/getCustomFilterFrontEnd.php:234
+#: includes/admin/getETAssignAgent.php:74
+#: includes/admin/getETChangeTicketStatus.php:76
+#: includes/admin/getETCreateNewTicket.php:82
+#: includes/admin/getETDeleteTicket.php:72
+#: includes/admin/getETReplayTicket.php:74
+#: includes/admin/getEmailNotificationSettings.php:52
+#: includes/admin/getFieldsReorderSettings.php:246
+#: includes/admin/getFrontEndDisplay.php:171
+#: includes/admin/getGeneralSettings.php:318
+#: includes/admin/getRollManagementSettings.php:71
+#: includes/admin/getTicketListFieldSettings.php:585
+msgid "Save Settings"
+msgstr ""
+
+#: includes/admin/getAgentSettings.php:26
+msgid "Signature"
+msgstr ""
+
+#: includes/admin/getAgentSettings.php:29
+msgid "Skype Settings"
+msgstr ""
+
+#: includes/admin/getAgentSettings.php:30
+msgid ""
+" You'll need to update your Skype setting to allow incoming calls or "
+"messages from people who are not on your contact list."
+msgstr ""
+
+#: includes/admin/getAgentSettings.php:33
+msgid "Skype ID"
+msgstr ""
+
+#: includes/admin/getAgentSettings.php:38
+msgid "Available to Chat?"
+msgstr ""
+
+#: includes/admin/getAgentSettings.php:41
+#: includes/admin/getAgentSettings.php:49
+#: includes/admin/getChangeTicketStatus.php:151
+#: includes/admin/getGeneralSettings.php:285
+#: includes/admin/getGeneralSettings.php:304
+#: includes/admin/getGeneralSettings.php:311
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/getAgentSettings.php:42
+#: includes/admin/getAgentSettings.php:50
+#: includes/admin/getChangeTicketStatus.php:152
+#: includes/admin/getGeneralSettings.php:286
+#: includes/admin/getGeneralSettings.php:305
+#: includes/admin/getGeneralSettings.php:312
+msgid "No"
+msgstr ""
+
+#: includes/admin/getAgentSettings.php:46
+msgid "Available to Call?"
+msgstr ""
+
+#: includes/admin/getCKEditorSettings.php:10
+msgid "Enable CKEditor for"
+msgstr ""
+
+#: includes/admin/getCKEditorSettings.php:14
+msgid "Guest User"
+msgstr ""
+
+#: includes/admin/getCKEditorSettings.php:18
+msgid "Login User"
+msgstr ""
+
+#: includes/admin/getCallOnlineAgents.php:39
+#: includes/admin/getCallOnlineAgents.php:70
+#: includes/admin/getCallOnlineAgents.php:101
+#: includes/admin/getChatOnlineAgents.php:39
+#: includes/admin/getChatOnlineAgents.php:70
+#: includes/admin/getChatOnlineAgents.php:101
+msgid "Skype ID:"
+msgstr ""
+
+#: includes/admin/getCallOnlineAgents.php:108
+msgid "Sorry, currently no agent available for call!!!"
+msgstr ""
+
+#: includes/admin/getCategories.php:28 includes/admin/getCategories.php:71
+#: includes/admin/getCategories.php:88
+msgid "Default Assignee"
+msgstr ""
+
+#: includes/admin/getCategories.php:32 includes/admin/getCustomFields.php:17
+#: includes/admin/getCustomPrioritySettings.php:41
+#: includes/admin/getCustomSliderMenus.php:18
+#: includes/admin/getCustomStatusSettings.php:36
+#: includes/admin/getFaqCategories.php:15 includes/admin/showFAQ.php:19
+#: includes/admin/showcanned.php:22
+msgid "Action"
+msgstr ""
+
+#: includes/admin/getCategories.php:52
+#: includes/admin/setTicketAssignment.php:77
+#: includes/admin/setTicketAssignment.php:93
+#: includes/admin/ticket_filter.php:202 includes/admin/wpsp_statistics.php:43
+msgid "None"
+msgstr ""
+
+#: includes/admin/getCategories.php:60 includes/admin/showcanned.php:36
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/getCategories.php:62
+#: includes/admin/getCustomPrioritySettings.php:65
+#: includes/admin/getCustomSliderMenus.php:25
+#: includes/admin/getCustomStatusSettings.php:69
+#: includes/admin/showcanned.php:37
+#: includes/admin/ticketActionDashboard.php:34
+#: includes/admin/ticketActionDashboard.php:44
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/getChangeTicketStatus.php:136
+#: includes/admin/getGeneralSettings.php:153
+#: includes/admin/getcannedreply.php:14
+msgid "Private"
+msgstr ""
+
+#: includes/admin/getChangeTicketStatus.php:137
+#: includes/admin/getGeneralSettings.php:154
+#: includes/admin/getcannedreply.php:15
+msgid "Public"
+msgstr ""
+
+#: includes/admin/getChangeTicketStatus.php:147
+msgid "Notify"
+msgstr ""
+
+#: includes/admin/getChatOnlineAgents.php:108
+msgid "Sorry, currently no agent available for chat!!!"
+msgstr ""
+
+#: includes/admin/getCustomCSSSettings.php:11
+msgid "Custom CSS For Front End"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:14
+#: includes/admin/getCustomFilterFrontEnd.php:28
+#: includes/admin/getFieldsReorderSettings.php:23
+#: includes/admin/getFieldsReorderSettings.php:96
+#: includes/admin/getFieldsReorderSettings.php:119
+#: includes/admin/getFieldsReorderSettings.php:142
+#: includes/admin/getFieldsReorderSettings.php:167
+#: includes/admin/getFieldsReorderSettings.php:188
+#: includes/admin/getFieldsReorderSettings.php:209
+#: includes/admin/getFieldsReorderSettings.php:230
+#: includes/admin/getFrontEndDisplay.php:20
+#: includes/admin/getFrontEndDisplay.php:81
+#: includes/admin/getGeneralSettings.php:112
+#: includes/admin/getTicketListFieldSettings.php:29
+#: includes/admin/getTicketListFieldSettings.php:318
+msgid "Label"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:15 includes/admin/getCustomFields.php:58
+#: includes/admin/getCustomFields.php:74
+#: includes/admin/getCustomFields.php:111
+msgid "Required"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:58
+msgid "Optional"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:68
+msgid "No Custom Fields Found"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:73
+msgid "Enter New Field Label"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:75
+#: includes/admin/getCustomFields.php:112
+msgid "Variable Field"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:76
+msgid ""
+"If you set custom field as variable field, it will not show on create ticket "
+"form, but can be edited by support team for their reference regarding the "
+"ticket."
+msgstr ""
+
+#: includes/admin/getCustomFields.php:77
+#: includes/admin/getCustomFields.php:113
+msgid "Field Type"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:79
+#: includes/admin/getCustomFields.php:115
+#: includes/admin/getCustomFilterFrontEnd.php:198
+#: includes/admin/ticket_filter.php:321
+#: includes/admin/ticket_filter_front.php:247
+msgid "Text"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:80
+#: includes/admin/getCustomFields.php:116
+msgid "Drop Down"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:81
+#: includes/admin/getCustomFields.php:117
+msgid "Checkbox"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:82
+#: includes/admin/getCustomFields.php:118
+msgid "Radio Button"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:83
+#: includes/admin/getCustomFields.php:119
+msgid "Textarea"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:84
+#: includes/admin/getCustomFields.php:120
+msgid "Date"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:87
+#: includes/admin/getCustomFields.php:123
+msgid "Woocommerce Product"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:90
+#: includes/admin/getCustomFields.php:126
+msgid "Assign Categories"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:98
+msgid ""
+"This custom field will only visible when one of the selected category is "
+"choosen in create ticket form. If you want to show this all the time, please "
+"leave this empty."
+msgstr ""
+
+#: includes/admin/getCustomFields.php:101
+#: includes/admin/getCustomFields.php:135
+msgid "Field Options"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:104
+#: includes/admin/getCustomFields.php:138
+msgid ""
+"Please enter the one option per line, option key and value should be entered "
+"as shown in the field"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:106
+msgid "Create New Field"
+msgstr ""
+
+#: includes/admin/getCustomFields.php:140
+#: includes/admin/getCustomPrioritySettings.php:71
+#: includes/admin/getCustomPrioritySettings.php:104
+#: includes/admin/getCustomStatusSettings.php:81
+#: includes/admin/getCustomStatusSettings.php:132
+msgid "Update"
+msgstr ""
+
+#: includes/admin/getCustomFilterFrontEnd.php:27
+#: includes/admin/getFieldsReorderSettings.php:22
+#: includes/admin/getTicketListFieldSettings.php:28
+#: includes/admin/getTicketListFieldSettings.php:317
+msgid "Field No."
+msgstr ""
+
+#: includes/admin/getCustomFilterFrontEnd.php:29
+msgid "Logged In Users"
+msgstr ""
+
+#: includes/admin/getCustomFilterFrontEnd.php:30
+msgid "Agents"
+msgstr ""
+
+#: includes/admin/getCustomFilterFrontEnd.php:31
+msgid "Supervisors"
+msgstr ""
+
+#: includes/admin/getCustomFilterFrontEnd.php:75
+#: includes/admin/getCustomFilterFrontEnd.php:83
+#: includes/admin/getCustomFilterFrontEnd.php:91
+#: includes/admin/getCustomFilterFrontEnd.php:110
+#: includes/admin/getCustomFilterFrontEnd.php:118
+#: includes/admin/getCustomFilterFrontEnd.php:126
+#: includes/admin/getCustomFilterFrontEnd.php:142
+#: includes/admin/getCustomFilterFrontEnd.php:150
+#: includes/admin/getCustomFilterFrontEnd.php:158
+#: includes/admin/getCustomFilterFrontEnd.php:174
+#: includes/admin/getCustomFilterFrontEnd.php:182
+#: includes/admin/getCustomFilterFrontEnd.php:190
+#: includes/admin/getCustomFilterFrontEnd.php:206
+#: includes/admin/getCustomFilterFrontEnd.php:214
+#: includes/admin/getCustomFilterFrontEnd.php:222
+#: includes/admin/getTicketListFieldSettings.php:49
+#: includes/admin/getTicketListFieldSettings.php:52
+#: includes/admin/getTicketListFieldSettings.php:71
+#: includes/admin/getTicketListFieldSettings.php:74
+#: includes/admin/getTicketListFieldSettings.php:89
+#: includes/admin/getTicketListFieldSettings.php:92
+#: includes/admin/getTicketListFieldSettings.php:107
+#: includes/admin/getTicketListFieldSettings.php:110
+#: includes/admin/getTicketListFieldSettings.php:130
+#: includes/admin/getTicketListFieldSettings.php:133
+#: includes/admin/getTicketListFieldSettings.php:148
+#: includes/admin/getTicketListFieldSettings.php:151
+#: includes/admin/getTicketListFieldSettings.php:166
+#: includes/admin/getTicketListFieldSettings.php:169
+#: includes/admin/getTicketListFieldSettings.php:184
+#: includes/admin/getTicketListFieldSettings.php:187
+#: includes/admin/getTicketListFieldSettings.php:202
+#: includes/admin/getTicketListFieldSettings.php:205
+#: includes/admin/getTicketListFieldSettings.php:220
+#: includes/admin/getTicketListFieldSettings.php:223
+#: includes/admin/getTicketListFieldSettings.php:238
+#: includes/admin/getTicketListFieldSettings.php:241
+#: includes/admin/getTicketListFieldSettings.php:264
+#: includes/admin/getTicketListFieldSettings.php:267
+#: includes/admin/getTicketListFieldSettings.php:290
+#: includes/admin/getTicketListFieldSettings.php:293
+#: includes/admin/getTicketListFieldSettings.php:337
+#: includes/admin/getTicketListFieldSettings.php:340
+#: includes/admin/getTicketListFieldSettings.php:359
+#: includes/admin/getTicketListFieldSettings.php:362
+#: includes/admin/getTicketListFieldSettings.php:377
+#: includes/admin/getTicketListFieldSettings.php:380
+#: includes/admin/getTicketListFieldSettings.php:395
+#: includes/admin/getTicketListFieldSettings.php:398
+#: includes/admin/getTicketListFieldSettings.php:418
+#: includes/admin/getTicketListFieldSettings.php:421
+#: includes/admin/getTicketListFieldSettings.php:436
+#: includes/admin/getTicketListFieldSettings.php:439
+#: includes/admin/getTicketListFieldSettings.php:454
+#: includes/admin/getTicketListFieldSettings.php:457
+#: includes/admin/getTicketListFieldSettings.php:472
+#: includes/admin/getTicketListFieldSettings.php:475
+#: includes/admin/getTicketListFieldSettings.php:490
+#: includes/admin/getTicketListFieldSettings.php:493
+#: includes/admin/getTicketListFieldSettings.php:508
+#: includes/admin/getTicketListFieldSettings.php:511
+#: includes/admin/getTicketListFieldSettings.php:527
+#: includes/admin/getTicketListFieldSettings.php:530
+#: includes/admin/getTicketListFieldSettings.php:553
+#: includes/admin/getTicketListFieldSettings.php:556
+msgid "Show"
+msgstr ""
+
+#: includes/admin/getCustomPrioritySettings.php:40
+#: includes/admin/getCustomStatusSettings.php:35
+#: includes/admin/getFieldsReorderSettings.php:82
+#: includes/admin/searchRegisteredUsaers.php:17 includes/linkReplyForm.php:25
+msgid "Name"
+msgstr ""
+
+#: includes/admin/getCustomPrioritySettings.php:42
+#: includes/admin/getCustomStatusSettings.php:43
+msgid "Color"
+msgstr ""
+
+#: includes/admin/getCustomPrioritySettings.php:43
+#: includes/admin/getCustomStatusSettings.php:44
+#: includes/admin/getTicketListFieldSettings.php:117
+#: includes/admin/getTicketListFieldSettings.php:248
+#: includes/admin/getTicketListFieldSettings.php:274
+#: includes/admin/getTicketListFieldSettings.php:405
+#: includes/admin/getTicketListFieldSettings.php:537
+#: includes/admin/getTicketListFieldSettings.php:563
+msgid "Save"
+msgstr ""
+
+#: includes/admin/getCustomPrioritySettings.php:86
+msgid "Add New Priority"
+msgstr ""
+
+#: includes/admin/getCustomSliderMenus.php:15
+msgid "Icon"
+msgstr ""
+
+#: includes/admin/getCustomSliderMenus.php:16
+msgid "Menu"
+msgstr ""
+
+#: includes/admin/getCustomSliderMenus.php:17
+#: includes/admin/getCustomSliderMenus.php:50
+msgid "Redirect URL"
+msgstr ""
+
+#: includes/admin/getCustomSliderMenus.php:31
+msgid "No Menus Found"
+msgstr ""
+
+#: includes/admin/getCustomSliderMenus.php:36
+msgid "Add New Menu"
+msgstr ""
+
+#: includes/admin/getCustomSliderMenus.php:40
+msgid "Select Icon (40 x 40 pixel)"
+msgstr ""
+
+#: includes/admin/getCustomSliderMenus.php:45
+msgid "Menu Text"
+msgstr ""
+
+#: includes/admin/getCustomSliderMenus.php:55
+msgid "Create New Menu"
+msgstr ""
+
+#: includes/admin/getCustomStatusSettings.php:94
+msgid "Save Status Order"
+msgstr ""
+
+#: includes/admin/getCustomStatusSettings.php:96
+msgid "No Custom Status Found"
+msgstr ""
+
+#: includes/admin/getCustomStatusSettings.php:100
+msgid "Add New Status"
+msgstr ""
+
+#: includes/admin/getCustomStatusSettings.php:109
+msgid "Status Name"
+msgstr ""
+
+#: includes/admin/getCustomStatusSettings.php:113
+msgid "Status Color"
+msgstr ""
+
+#: includes/admin/getCustomStatusSettings.php:125
+msgid "Create New Status"
+msgstr ""
+
+#: includes/admin/getETAssignAgent.php:13
+#: includes/admin/getETChangeTicketStatus.php:15
+#: includes/admin/getETCreateNewTicket.php:13
+#: includes/admin/getETDeleteTicket.php:11
+#: includes/admin/getETReplayTicket.php:14
+msgid "Available Templates"
+msgstr ""
+
+#: includes/admin/getETAssignAgent.php:26
+msgid "Assign Agent Notification Email"
+msgstr ""
+
+#: includes/admin/getETAssignAgent.php:30
+#: includes/admin/getETChangeTicketStatus.php:32
+#: includes/admin/getETDeleteTicket.php:28
+#: includes/admin/getETReplayTicket.php:30
+msgid "Applicable Users"
+msgstr ""
+
+#: includes/admin/getETAssignAgent.php:36
+#: includes/admin/getETChangeTicketStatus.php:38
+#: includes/admin/getETDeleteTicket.php:34
+#: includes/admin/getETReplayTicket.php:36
+msgid "Customer"
+msgstr ""
+
+#: includes/admin/getETAssignAgent.php:44
+#: includes/admin/getETChangeTicketStatus.php:46
+#: includes/admin/getETCreateNewTicket.php:52
+#: includes/admin/getETDeleteTicket.php:42
+#: includes/admin/getETReplayTicket.php:44
+msgid "Administrator"
+msgstr ""
+
+#: includes/admin/getETAssignAgent.php:45
+#: includes/admin/getETChangeTicketStatus.php:47
+#: includes/admin/getETCreateNewTicket.php:53
+#: includes/admin/getETDeleteTicket.php:43
+#: includes/admin/getETReplayTicket.php:45
+msgid "Administrator Emails set in Email Notification Settings"
+msgstr ""
+
+#: includes/admin/getETAssignAgent.php:51
+#: includes/admin/getETChangeTicketStatus.php:53
+#: includes/admin/getETCreateNewTicket.php:59
+#: includes/admin/getETDeleteTicket.php:49
+#: includes/admin/getETReplayTicket.php:51
+msgid "Supervisor"
+msgstr ""
+
+#: includes/admin/getETAssignAgent.php:57
+#: includes/admin/getETChangeTicketStatus.php:59
+#: includes/admin/getETCreateNewTicket.php:65
+#: includes/admin/getETDeleteTicket.php:55
+#: includes/admin/getETReplayTicket.php:57
+msgid "Assigned Agents"
+msgstr ""
+
+#: includes/admin/getETAssignAgent.php:58
+#: includes/admin/getETChangeTicketStatus.php:60
+#: includes/admin/getETCreateNewTicket.php:66
+#: includes/admin/getETDeleteTicket.php:56
+#: includes/admin/getETReplayTicket.php:58
+msgid "Agents pre-assigned to category"
+msgstr ""
+
+#: includes/admin/getETAssignAgent.php:64
+#: includes/admin/getETChangeTicketStatus.php:66
+#: includes/admin/getETCreateNewTicket.php:72
+#: includes/admin/getETDeleteTicket.php:62
+#: includes/admin/getETReplayTicket.php:64
+msgid "All Agents"
+msgstr ""
+
+#: includes/admin/getETAssignAgent.php:69
+#: includes/admin/getETChangeTicketStatus.php:71
+#: includes/admin/getETCreateNewTicket.php:35
+#: includes/admin/getETCreateNewTicket.php:77
+#: includes/admin/getETDeleteTicket.php:67
+#: includes/admin/getETReplayTicket.php:69
+#: includes/admin/getFieldsReorderSettings.php:128
+#: includes/admin/getTicketListFieldSettings.php:103
+#: includes/admin/getTicketListFieldSettings.php:391
+msgid "Subject"
+msgstr ""
+
+#: includes/admin/getETAssignAgent.php:71
+#: includes/admin/getETChangeTicketStatus.php:73
+#: includes/admin/getETCreateNewTicket.php:37
+#: includes/admin/getETCreateNewTicket.php:79
+#: includes/admin/getETDeleteTicket.php:69
+#: includes/admin/getETReplayTicket.php:71
+msgid "Body"
+msgstr ""
+
+#: includes/admin/getETAssignAgent.php:75
+#: includes/admin/getETChangeTicketStatus.php:77
+#: includes/admin/getETCreateNewTicket.php:83
+#: includes/admin/getETDeleteTicket.php:73
+#: includes/admin/getETReplayTicket.php:75
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/admin/getETChangeTicketStatus.php:28
+msgid "Change Status Notification Email"
+msgstr ""
+
+#: includes/admin/getETCreateNewTicket.php:42
+msgid "Staff Email"
+msgstr ""
+
+#: includes/admin/getETCreateNewTicket.php:46
+msgid "Staff Applicable"
+msgstr ""
+
+#: includes/admin/getETReplayTicket.php:26
+msgid "Reply Notification Email"
+msgstr ""
+
+#: includes/admin/getEmailNotificationSettings.php:12
+msgid "Mail Settings"
+msgstr ""
+
+#: includes/admin/getEmailNotificationSettings.php:15
+msgid "From Email:"
+msgstr ""
+
+#: includes/admin/getEmailNotificationSettings.php:19
+msgid "From Name:"
+msgstr ""
+
+#: includes/admin/getEmailNotificationSettings.php:23
+msgid "Reply To:"
+msgstr ""
+
+#: includes/admin/getEmailNotificationSettings.php:29
+msgid "Administrator Notifications"
+msgstr ""
+
+#: includes/admin/getEmailNotificationSettings.php:32
+msgid "Administrator Emails :"
+msgstr ""
+
+#: includes/admin/getEmailNotificationSettings.php:36
+msgid ""
+"Please add one email address per line. These email addresses will receive "
+"administrator email notifications"
+msgstr ""
+
+#: includes/admin/getEmailNotificationSettings.php:39
+msgid "Ignore Email Notifications"
+msgstr ""
+
+#: includes/admin/getEmailNotificationSettings.php:41
+msgid "This will not send any email to given email addresses."
+msgstr ""
+
+#: includes/admin/getEmailNotificationSettings.php:43
+msgid "Ignore Emails :"
+msgstr ""
+
+#: includes/admin/getEmailNotificationSettings.php:47
+msgid ""
+"Please add one email address per line. These email addresses will not "
+"receive administrator email notifications"
+msgstr ""
+
+#: includes/admin/getFieldsReorderSettings.php:25
+#: includes/admin/getTicketListFieldSettings.php:31
+#: includes/admin/getTicketListFieldSettings.php:320
+msgid "Extra"
+msgstr ""
+
+#: includes/admin/getFieldsReorderSettings.php:105
+#: includes/linkReplyForm.php:27
+msgid "Email Address"
+msgstr ""
+
+#: includes/admin/getFieldsReorderSettings.php:144
+msgid "Default value if disabled"
+msgstr ""
+
+#: includes/admin/getFieldsReorderSettings.php:153
+#: includes/linkReplyForm.php:29
+msgid "Description"
+msgstr ""
+
+#: includes/admin/getFieldsReorderSettings.php:218
+msgid "Attach File(s)"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:15
+msgid "Open Ticket Action Buttons"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:15
+msgid "(Applicable Only Frontend)"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:18
+#: includes/admin/getFrontEndDisplay.php:79
+#: includes/admin/getFrontEndDisplay.php:149
+msgid "Element"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:19
+#: includes/admin/getFrontEndDisplay.php:80
+#: includes/admin/getFrontEndDisplay.php:150 includes/admin/showcanned.php:21
+msgid "Visibility"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:21
+#: includes/admin/getFrontEndDisplay.php:82
+msgid "Font-Color"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:22
+#: includes/admin/getFrontEndDisplay.php:83
+msgid "Background-Color"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:25
+msgid "Back To Ticket"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:39
+#: includes/admin/getGeneralSettings.php:111
+#: includes/admin/installation.php:586
+msgid "Close Ticket"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:46
+msgid "Canned Reply (shown to agents only)"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:53
+msgid "+More Action"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:60
+msgid "Assign Agent (shown to agents only)"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:67
+msgid "Delete Ticket (shown to agents only)"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:76
+msgid "Reply Form Fields"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:76
+msgid "(Applicable Frontend and Backend Both)"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:86
+#: includes/admin/installation.php:1286
+msgid "CC"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:92
+#: includes/admin/installation.php:1287
+msgid "BCC"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:116
+#: includes/admin/getIndivisualTicket.php:623
+#: includes/admin/getIndivisualTicketFront.php:601
+#: includes/admin/installation.php:1291
+msgid "Attachments"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:122
+msgid "Add Notes (shown to agents only)"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:129
+#: includes/admin/installation.php:1293 includes/linkReplyForm.php:32
+msgid "Submit Reply"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:136
+msgid "Change Raised By (shown to agents only)"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:146
+msgid "Ticket Threads"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:146
+msgid "( Applicable Only Frontend )"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:153
+#: includes/admin/searchRegisteredUsaers.php:19
+msgid "Email"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:157
+msgid "Days/Months/Year Ago"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:161
+msgid "Exact Date"
+msgstr ""
+
+#: includes/admin/getFrontEndDisplay.php:165
+msgid "Exact Time"
+msgstr ""
+
+#: includes/admin/getFrontEndFAQ.php:45
+msgid "FAQ's"
+msgstr ""
+
+#: includes/admin/getFrontEndFAQ.php:62
+#: includes/admin/getFrontEndTicket.php:461
+#: includes/admin/getTicketsByFilter.php:806
+msgid "Newer"
+msgstr ""
+
+#: includes/admin/getFrontEndFAQ.php:64
+#: includes/admin/getFrontEndTicket.php:463
+#: includes/admin/getTicketsByFilter.php:808
+msgid "Older"
+msgstr ""
+
+#: includes/admin/getFrontEndFAQ.php:66
+msgid "No Faqs Found"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:47
+#: includes/admin/getTicketsByFilter.php:51
+#: includes/admin/ticketActionDashboard.php:12
+#: includes/ticketActionFront.php:5
+msgid "Apply Filter"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:48
+#: includes/admin/getTicketsByFilter.php:52
+msgid "Show Active Filter"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:277
+#: includes/admin/getTicketListFieldSettings.php:126
+#: includes/admin/getTicketListFieldSettings.php:414
+#: includes/admin/getTicketRaisedByUser.php:34
+#: includes/admin/getTicketsByFilter.php:537
+msgid "Raised By"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:283
+#: includes/admin/getTicketsByFilter.php:570
+#: includes/admin/wpsp_statistics.php:35
+msgid "Assigned to"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:288
+#: includes/admin/getTicketsByFilter.php:592
+msgid "Updated"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:290
+#: includes/admin/getTicketListFieldSettings.php:234
+#: includes/admin/getTicketListFieldSettings.php:523
+#: includes/admin/getTicketsByFilter.php:603
+msgid "Date Created"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:292
+#: includes/admin/getTicketListFieldSettings.php:260
+#: includes/admin/getTicketListFieldSettings.php:549
+#: includes/admin/getTicketsByFilter.php:614
+msgid "Date Updated"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:320
+#: includes/admin/getIndivisualTicket.php:477
+#: includes/admin/getIndivisualTicketFront.php:487
+#: includes/admin/getTicketsByFilter.php:661
+#: includes/openEncryptedTicketID.php:156
+msgid "months ago"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:321
+#: includes/admin/getIndivisualTicket.php:479
+#: includes/admin/getIndivisualTicketFront.php:488
+#: includes/admin/getTicketsByFilter.php:662
+#: includes/openEncryptedTicketID.php:158
+msgid "days ago"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:322
+#: includes/admin/getIndivisualTicket.php:481
+#: includes/admin/getIndivisualTicketFront.php:489
+#: includes/admin/getTicketsByFilter.php:663
+#: includes/openEncryptedTicketID.php:160
+msgid "hours ago"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:323
+#: includes/admin/getIndivisualTicket.php:483
+#: includes/admin/getIndivisualTicketFront.php:490
+#: includes/admin/getTicketsByFilter.php:664
+#: includes/openEncryptedTicketID.php:162
+msgid "minutes ago"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:324
+#: includes/admin/getIndivisualTicket.php:485
+#: includes/admin/getIndivisualTicketFront.php:491
+#: includes/admin/getTicketsByFilter.php:665
+#: includes/openEncryptedTicketID.php:164
+msgid "seconds ago"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:462
+#: includes/admin/getTicketsByFilter.php:807
+msgid "of"
+msgstr ""
+
+#: includes/admin/getFrontEndTicket.php:462
+#: includes/admin/getTicketsByFilter.php:807
+msgid "Pages"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:13
+msgid "Support Page/Post"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:37
+msgid "Default Category"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:53
+msgid "Selected Category will be default category for new tickets."
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:58
+msgid "Default Status"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:79
+msgid "Selected Status will be assigned to new tickets."
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:84
+msgid "Ticket Status After Customer Reply"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:106
+msgid ""
+"Ticket status will be changed to selected status (other than default) after "
+"ticket creator reply back."
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:113
+msgid "Select Status"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:142
+msgid "Ticket Type Settings"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:143
+msgid ""
+"If enabled, users will be able to make a ticket public/private from front "
+"end."
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:147
+msgid "Allow users to make a ticket public/private from front end."
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:150
+msgid ""
+"If users are allowed to make a ticket public/private this will be the "
+"selected type for ticket. If user is not allowed to select ticket type from "
+"front end then this will be the type of the ticket created from front end."
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:151
+msgid "Default Ticket Type"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:158
+#: includes/admin/getSupportButton.php:11
+msgid "Support Button"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:159
+msgid ""
+"If enabled, button will be shown on all pages of front-end which redirect to "
+"support page/post selected above on click."
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:163
+msgid "Enable Support Button"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:166
+msgid "Button Position"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:168
+msgid "Top Left"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:169
+msgid "Top Right"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:170
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:171
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:181
+msgid "Front End Ticket Submission"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:182
+msgid ""
+"If enabled, prevents the submission of new tickets from the front end by "
+"logged in users. This may be useful if you want tickets to only be raised "
+"via email piping"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:187
+msgid "Prevent Front End Ticket Submission"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:197
+msgid "If enabled, non logged-in user will able to raise ticket"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:201
+msgid "Enable Guest Tickets"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:207
+msgid "Register Guest as User"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:212
+msgid "Role for new user"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:226
+msgid ""
+"If enabled, Guest user will be able to add attachment to a ticket. Note. "
+"This setting is applicable for front end tickets only"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:230
+msgid "Allow attachments for guest tickets"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:236
+msgid "Default Login"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:237
+msgid ""
+"If enabled, it will display default login form link and default login form "
+"will be enabled"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:241
+msgid "Enable Default Login"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:248
+msgid "Default Login Module"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:256
+msgid "Wp Login Link"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:267
+msgid "Allow Agents to assign tickets"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:273
+msgid "Allow Agents to delete tickets"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:280
+msgid "Front End Support Panel"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:283
+msgid "Enable:"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:290
+msgid "Support Title:"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:296
+msgid "Phone Number:"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:302
+msgid "Display Skype Chat?:"
+msgstr ""
+
+#: includes/admin/getGeneralSettings.php:309
+msgid "Display Skype Call?:"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:46
+#: includes/admin/getIndivisualTicket.php:50
+#: includes/admin/getIndivisualTicketFront.php:56
+#: includes/admin/getIndivisualTicketFront.php:60
+msgid "Sorry! You do not have permission to view this ticket."
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:155
+#: includes/admin/getIndivisualTicketFront.php:154
+#: includes/admin/getIndivisualTicketFront.php:161
+msgid "+More Actions"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:167
+msgid "Clone Ticket"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:186
+#: includes/admin/getIndivisualTicketFront.php:191
+#: includes/admin/installation.php:1390
+msgid "Restore Ticket"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:370
+#: includes/admin/getIndivisualTicket.php:378
+#: includes/admin/getIndivisualTicketFront.php:389
+#: includes/admin/getIndivisualTicketFront.php:397
+msgid "Product"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:373
+#: includes/admin/getIndivisualTicket.php:374
+#: includes/admin/getIndivisualTicketFront.php:392
+#: includes/admin/getIndivisualTicketFront.php:393
+msgid "Order"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:379
+#: includes/admin/getIndivisualTicket.php:408
+#: includes/admin/getIndivisualTicketFront.php:398
+#: includes/admin/getIndivisualTicketFront.php:427
+msgid "Total"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:396
+#: includes/admin/getIndivisualTicketFront.php:415
+msgid "Subtotal"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:400
+#: includes/admin/getIndivisualTicketFront.php:419
+msgid "Discount"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:404
+#: includes/admin/getIndivisualTicketFront.php:423
+msgid "Payment Method"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:524
+#: includes/admin/getIndivisualTicket.php:525
+#: includes/admin/getIndivisualTicketFront.php:526
+msgid "assigned to"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:533
+#: includes/admin/getIndivisualTicket.php:534
+#: includes/admin/getIndivisualTicketFront.php:535
+msgid "changed status to"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:542
+#: includes/admin/getIndivisualTicket.php:543
+#: includes/admin/getIndivisualTicketFront.php:544
+msgid "changed category to"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:550
+#: includes/admin/getIndivisualTicket.php:551
+#: includes/admin/getIndivisualTicketFront.php:552
+msgid "changed priority to"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:565
+#: includes/admin/getIndivisualTicket.php:566
+#: includes/admin/getIndivisualTicketFront.php:567
+#: includes/admin/getIndivisualTicketFront.php:568
+msgid "changed raised by to"
+msgstr ""
+
+#: includes/admin/getIndivisualTicket.php:616
+#: includes/admin/getIndivisualTicketFront.php:595
+#: includes/openEncryptedTicketID.php:195
+msgid "Private Note : Not Visible to Customers"
+msgstr ""
+
+#: includes/admin/getIndivisualTicketFront.php:129
+#: includes/admin/getIndivisualTicketFront.php:140
+#: includes/admin/getIndivisualTicketFront.php:146
+#: includes/admin/getIndivisualTicketFront.php:173
+#: includes/admin/getIndivisualTicketFront.php:180
+#: includes/admin/getIndivisualTicketFront.php:187
+#: includes/admin/replyFormPosition.php:23
+#: includes/admin/replyFormPosition.php:29
+#: includes/admin/replyFormPosition.php:42
+#: includes/admin/replyFormPosition.php:81
+#: includes/admin/replyFormPosition.php:100
+#: includes/admin/replyFormPosition.php:120
+#: includes/admin/replyFormPosition.php:148
+#: includes/admin/replyFormPosition.php:154
+msgid "%s"
+msgstr ""
+
+#: includes/admin/getIndivisualTicketFront.php:536
+msgid "Change status to"
+msgstr ""
+
+#: includes/admin/getIndivisualTicketFront.php:545
+msgid "change category to"
+msgstr ""
+
+#: includes/admin/getIndivisualTicketFront.php:553
+msgid "change priority to"
+msgstr ""
+
+#: includes/admin/getRollManagementSettings.php:13
+msgid "Agent Capabilities"
+msgstr ""
+
+#: includes/admin/getRollManagementSettings.php:14
+#: includes/admin/getRollManagementSettings.php:31
+msgid "This will add"
+msgstr ""
+
+#: includes/admin/getRollManagementSettings.php:14
+msgid "Support Agent"
+msgstr ""
+
+#: includes/admin/getRollManagementSettings.php:14
+#: includes/admin/getRollManagementSettings.php:31
+msgid "capabilities to your existing user roles"
+msgstr ""
+
+#: includes/admin/getRollManagementSettings.php:30
+msgid "Supervisor Capabilities"
+msgstr ""
+
+#: includes/admin/getRollManagementSettings.php:31
+msgid "Support Supervisor"
+msgstr ""
+
+#: includes/admin/getRollManagementSettings.php:48
+msgid "Front End Restriction"
+msgstr ""
+
+#: includes/admin/getRollManagementSettings.php:49
+msgid "This will allow"
+msgstr ""
+
+#: includes/admin/getRollManagementSettings.php:49
+msgid "Registered Users"
+msgstr ""
+
+#: includes/admin/getRollManagementSettings.php:49
+msgid "to raise/view tickets from front end."
+msgstr ""
+
+#: includes/admin/getSupportButton.php:16
+#: includes/admin/getSupportButton.php:21
+msgid "( Please select image of width:47px and height: 168px )"
+msgstr ""
+
+#: includes/admin/getSupportButton.php:24
+msgid "Support Panel Icon"
+msgstr ""
+
+#: includes/admin/getSupportButton.php:28
+msgid "( Please select image of width:40px and height: 40px )"
+msgstr ""
+
+#: includes/admin/getSupportButton.php:31
+msgid "Upload Images"
+msgstr ""
+
+#: includes/admin/getTicketListFieldSettings.php:50
+#: includes/admin/getTicketListFieldSettings.php:53
+#: includes/admin/getTicketListFieldSettings.php:72
+#: includes/admin/getTicketListFieldSettings.php:75
+#: includes/admin/getTicketListFieldSettings.php:90
+#: includes/admin/getTicketListFieldSettings.php:93
+#: includes/admin/getTicketListFieldSettings.php:108
+#: includes/admin/getTicketListFieldSettings.php:111
+#: includes/admin/getTicketListFieldSettings.php:131
+#: includes/admin/getTicketListFieldSettings.php:134
+#: includes/admin/getTicketListFieldSettings.php:149
+#: includes/admin/getTicketListFieldSettings.php:152
+#: includes/admin/getTicketListFieldSettings.php:167
+#: includes/admin/getTicketListFieldSettings.php:170
+#: includes/admin/getTicketListFieldSettings.php:185
+#: includes/admin/getTicketListFieldSettings.php:188
+#: includes/admin/getTicketListFieldSettings.php:203
+#: includes/admin/getTicketListFieldSettings.php:206
+#: includes/admin/getTicketListFieldSettings.php:221
+#: includes/admin/getTicketListFieldSettings.php:224
+#: includes/admin/getTicketListFieldSettings.php:239
+#: includes/admin/getTicketListFieldSettings.php:242
+#: includes/admin/getTicketListFieldSettings.php:265
+#: includes/admin/getTicketListFieldSettings.php:268
+#: includes/admin/getTicketListFieldSettings.php:291
+#: includes/admin/getTicketListFieldSettings.php:294
+#: includes/admin/getTicketListFieldSettings.php:338
+#: includes/admin/getTicketListFieldSettings.php:341
+#: includes/admin/getTicketListFieldSettings.php:360
+#: includes/admin/getTicketListFieldSettings.php:363
+#: includes/admin/getTicketListFieldSettings.php:378
+#: includes/admin/getTicketListFieldSettings.php:381
+#: includes/admin/getTicketListFieldSettings.php:396
+#: includes/admin/getTicketListFieldSettings.php:399
+#: includes/admin/getTicketListFieldSettings.php:419
+#: includes/admin/getTicketListFieldSettings.php:422
+#: includes/admin/getTicketListFieldSettings.php:437
+#: includes/admin/getTicketListFieldSettings.php:440
+#: includes/admin/getTicketListFieldSettings.php:455
+#: includes/admin/getTicketListFieldSettings.php:458
+#: includes/admin/getTicketListFieldSettings.php:473
+#: includes/admin/getTicketListFieldSettings.php:476
+#: includes/admin/getTicketListFieldSettings.php:491
+#: includes/admin/getTicketListFieldSettings.php:494
+#: includes/admin/getTicketListFieldSettings.php:509
+#: includes/admin/getTicketListFieldSettings.php:512
+#: includes/admin/getTicketListFieldSettings.php:528
+#: includes/admin/getTicketListFieldSettings.php:531
+#: includes/admin/getTicketListFieldSettings.php:554
+#: includes/admin/getTicketListFieldSettings.php:557
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/getTicketListFieldSettings.php:67
+#: includes/admin/getTicketListFieldSettings.php:355
+#: includes/admin/ticket_filter.php:322
+#: includes/admin/ticket_filter_front.php:248
+msgid "ID"
+msgstr ""
+
+#: includes/admin/getTicketListFieldSettings.php:115
+#: includes/admin/getTicketListFieldSettings.php:403
+msgid "Char. Length"
+msgstr ""
+
+#: includes/admin/getTicketListFieldSettings.php:118
+#: includes/admin/getTicketListFieldSettings.php:249
+#: includes/admin/getTicketListFieldSettings.php:275
+#: includes/admin/getTicketListFieldSettings.php:406
+#: includes/admin/getTicketListFieldSettings.php:538
+#: includes/admin/getTicketListFieldSettings.php:564
+msgid "Saved!"
+msgstr ""
+
+#: includes/admin/getTicketListFieldSettings.php:144
+#: includes/admin/getTicketListFieldSettings.php:432
+#: includes/admin/getTicketsByFilter.php:548
+msgid "Type"
+msgstr ""
+
+#: includes/admin/getTicketListFieldSettings.php:180
+#: includes/admin/getTicketListFieldSettings.php:468
+msgid "Assigned To"
+msgstr ""
+
+#: includes/admin/getTicketListFieldSettings.php:216
+#: includes/admin/getTicketListFieldSettings.php:504
+msgid "Updated Time"
+msgstr ""
+
+#: includes/admin/getTicketListFieldSettings.php:246
+#: includes/admin/getTicketListFieldSettings.php:272
+#: includes/admin/getTicketListFieldSettings.php:535
+#: includes/admin/getTicketListFieldSettings.php:561
+msgid "Date Format"
+msgstr ""
+
+#: includes/admin/getTicketListFieldSettings.php:251
+#: includes/admin/getTicketListFieldSettings.php:277
+#: includes/admin/getTicketListFieldSettings.php:540
+#: includes/admin/getTicketListFieldSettings.php:566
+msgid "Click here"
+msgstr ""
+
+#: includes/admin/getTicketListFieldSettings.php:251
+#: includes/admin/getTicketListFieldSettings.php:277
+#: includes/admin/getTicketListFieldSettings.php:540
+#: includes/admin/getTicketListFieldSettings.php:566
+msgid "to see available date formats. E.g."
+msgstr ""
+
+#: includes/admin/getTicketListFieldSettings.php:251
+#: includes/admin/getTicketListFieldSettings.php:277
+#: includes/admin/getTicketListFieldSettings.php:540
+#: includes/admin/getTicketListFieldSettings.php:566
+msgid "will display date as"
+msgstr ""
+
+#: includes/admin/getTicketListFieldSettings.php:286
+#: includes/admin/getTicketsByFilter.php:625
+#: includes/admin/installation.php:823
+#: includes/admin/resetETCreateNewTicket.php:15
+msgid "Agent Created"
+msgstr ""
+
+#: includes/admin/getcannedreply.php:1
+msgid "Add New Canned Reply"
+msgstr ""
+
+#: includes/admin/getcannedreply.php:7
+msgid "Title:"
+msgstr ""
+
+#: includes/admin/indi_ticket_backend_del_confirm.php:8
+msgid "Ticket will get permanently deleted! Delete Ticket?"
+msgstr ""
+
+#: includes/admin/indi_ticket_backend_del_confirm.php:11
+msgid "Delete Ticket?"
+msgstr ""
+
+#: includes/admin/indi_ticket_backend_del_confirm.php:29
+#: includes/admin/submit_reply_confirm_box.php:20
+msgid "OK"
+msgstr ""
+
+#: includes/admin/installation.php:266
+msgid "Normal"
+msgstr ""
+
+#: includes/admin/installation.php:267
+msgid "High"
+msgstr ""
+
+#: includes/admin/installation.php:268
+msgid "Medium"
+msgstr ""
+
+#: includes/admin/installation.php:269
+msgid "Low"
+msgstr ""
+
+#: includes/admin/installation.php:531
+msgid "Ticket"
+msgstr ""
+
+#: includes/admin/installation.php:534
+msgid "Ticket List Settings"
+msgstr ""
+
+#: includes/admin/installation.php:535
+msgid "Create Ticket As"
+msgstr ""
+
+#: includes/admin/installation.php:536
+msgid "Make Ticket Public"
+msgstr ""
+
+#: includes/admin/installation.php:537
+msgid "Submit Ticket"
+msgstr ""
+
+#: includes/admin/installation.php:538
+msgid "Edit Ticket"
+msgstr ""
+
+#: includes/admin/installation.php:539
+msgid "Reply Ticket"
+msgstr ""
+
+#: includes/admin/installation.php:540
+msgid "Delete Ticket"
+msgstr ""
+
+#: includes/admin/installation.php:541
+msgid "Ticket Type"
+msgstr ""
+
+#: includes/admin/installation.php:542
+msgid "No. of Tickets"
+msgstr ""
+
+#: includes/admin/installation.php:543
+msgid "Ticket Creator"
+msgstr ""
+
+#: includes/admin/installation.php:544
+msgid "Create Ticket Success Email"
+msgstr ""
+
+#: includes/admin/installation.php:545
+msgid "Delete Ticket Notification Email"
+msgstr ""
+
+#: includes/admin/installation.php:546
+msgid "New Ticket From Thread"
+msgstr ""
+
+#: includes/admin/installation.php:547
+msgid "Back to Tickets"
+msgstr ""
+
+#: includes/admin/installation.php:548
+msgid "Backend Ticket List Fields"
+msgstr ""
+
+#: includes/admin/installation.php:549
+msgid "Frontend Ticket List Fields"
+msgstr ""
+
+#: includes/admin/installation.php:550
+msgid "No Tickets Found"
+msgstr ""
+
+#: includes/admin/installation.php:650
+msgid "NA"
+msgstr ""
+
+#: includes/admin/installation.php:766 includes/admin/installation.php:835
+#: includes/admin/installation.php:902 includes/admin/installation.php:960
+#: includes/admin/installation.php:1021
+#: includes/admin/resetETAssignAgent.php:13
+#: includes/admin/resetETChangeTicketStatus.php:13
+#: includes/admin/resetETCreateNewTicket.php:6
+#: includes/admin/resetETDeleteTicket.php:13
+#: includes/admin/resetETReplyTicket.php:9
+msgid "Customer Name"
+msgstr ""
+
+#: includes/admin/installation.php:767 includes/admin/installation.php:836
+#: includes/admin/installation.php:903 includes/admin/installation.php:961
+#: includes/admin/installation.php:1022
+#: includes/admin/resetETAssignAgent.php:14
+#: includes/admin/resetETChangeTicketStatus.php:14
+#: includes/admin/resetETCreateNewTicket.php:7
+#: includes/admin/resetETDeleteTicket.php:14
+#: includes/admin/resetETReplyTicket.php:10
+msgid "Customer Email"
+msgstr ""
+
+#: includes/admin/installation.php:768 includes/admin/installation.php:837
+#: includes/admin/installation.php:904 includes/admin/installation.php:962
+#: includes/admin/installation.php:1023
+#: includes/admin/resetETAssignAgent.php:15
+#: includes/admin/resetETChangeTicketStatus.php:15
+#: includes/admin/resetETCreateNewTicket.php:8
+#: includes/admin/resetETDeleteTicket.php:15
+#: includes/admin/resetETReplyTicket.php:11
+msgid "Ticket ID"
+msgstr ""
+
+#: includes/admin/installation.php:769 includes/admin/installation.php:838
+#: includes/admin/installation.php:905 includes/admin/installation.php:963
+#: includes/admin/installation.php:1024
+#: includes/admin/resetETAssignAgent.php:16
+#: includes/admin/resetETChangeTicketStatus.php:16
+#: includes/admin/resetETCreateNewTicket.php:9
+#: includes/admin/resetETDeleteTicket.php:16
+#: includes/admin/resetETReplyTicket.php:12
+msgid "Ticket Subject"
+msgstr ""
+
+#: includes/admin/installation.php:770 includes/admin/installation.php:817
+#: includes/admin/installation.php:906 includes/admin/installation.php:964
+#: includes/admin/installation.php:1025
+#: includes/admin/resetETAssignAgent.php:17
+#: includes/admin/resetETChangeTicketStatus.php:17
+#: includes/admin/resetETCreateNewTicket.php:10
+#: includes/admin/resetETDeleteTicket.php:17
+msgid "Ticket Description"
+msgstr ""
+
+#: includes/admin/installation.php:771 includes/admin/installation.php:840
+#: includes/admin/installation.php:908 includes/admin/installation.php:966
+#: includes/admin/installation.php:1027
+#: includes/admin/resetETAssignAgent.php:19
+#: includes/admin/resetETChangeTicketStatus.php:19
+#: includes/admin/resetETCreateNewTicket.php:11
+#: includes/admin/resetETDeleteTicket.php:19
+#: includes/admin/resetETReplyTicket.php:14
+msgid "Ticket Category"
+msgstr ""
+
+#: includes/admin/installation.php:772 includes/admin/installation.php:814
+#: includes/admin/installation.php:841 includes/admin/installation.php:878
+#: includes/admin/installation.php:909 includes/admin/installation.php:936
+#: includes/admin/installation.php:967 includes/admin/installation.php:997
+#: includes/admin/installation.php:1028 includes/admin/installation.php:1054
+#: includes/admin/resetETAssignAgent.php:20
+#: includes/admin/resetETChangeTicketStatus.php:20
+#: includes/admin/resetETCreateNewTicket.php:12
+#: includes/admin/resetETDeleteTicket.php:20
+#: includes/admin/resetETReplyTicket.php:15
+msgid "Ticket Priority"
+msgstr ""
+
+#: includes/admin/installation.php:786
+msgid "Your Ticket has been created successfully"
+msgstr ""
+
+#: includes/admin/installation.php:787
+msgid ""
+"Dear {customer_name},<br />\n"
+"\t\t\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t\t\tThank you for contacting Support. Your ticket has been "
+"created Successfully!<br />\n"
+"\t\t\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t\t\tBelow are details of your ticket -<br />\n"
+"\t\t\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t\t\t<strong>Subject:</strong> {ticket_subject}<br />\n"
+"\t\t\t\t\t\t\t\t<strong>Description:</strong>\n"
+"\t\t\t\t\t\t\t\t<p>{ticket_description}</p>\n"
+"\t\t\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t\t\t<br />"
+msgstr ""
+
+#: includes/admin/installation.php:799
+msgid ""
+"<strong>{customer_name} ({customer_email})</strong> wrote:\n"
+"\t\t\t\t\t\t\t\t<p>{ticket_description}</p>\n"
+"\t\t\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t\t\t<br />"
+msgstr ""
+
+#: includes/admin/installation.php:810 includes/admin/installation.php:867
+#: includes/admin/installation.php:910 includes/admin/installation.php:968
+#: includes/admin/resetETAssignAgent.php:21
+#: includes/admin/resetETChangeTicketStatus.php:21
+#: includes/admin/resetETCreateNewTicket.php:13
+#: includes/admin/resetETReplyTicket.php:16
+msgid "Ticket URL"
+msgstr ""
+
+#: includes/admin/installation.php:820 includes/admin/installation.php:873
+#: includes/admin/installation.php:931 includes/admin/installation.php:992
+#: includes/admin/installation.php:1049
+#: includes/admin/resetETAssignAgent.php:25
+#: includes/admin/resetETChangeTicketStatus.php:23
+#: includes/admin/resetETCreateNewTicket.php:14
+#: includes/admin/resetETDeleteTicket.php:22
+#: includes/admin/resetETReplyTicket.php:18
+msgid "Ticket Created"
+msgstr ""
+
+#: includes/admin/installation.php:832 includes/admin/resetETReplyTicket.php:6
+msgid "Reply By Name"
+msgstr ""
+
+#: includes/admin/installation.php:833 includes/admin/resetETReplyTicket.php:7
+msgid "Reply By Email"
+msgstr ""
+
+#: includes/admin/installation.php:835 includes/admin/installation.php:836
+#: includes/admin/installation.php:902 includes/admin/installation.php:903
+#: includes/admin/installation.php:960 includes/admin/installation.php:961
+#: includes/admin/installation.php:1021 includes/admin/installation.php:1022
+#: includes/admin/resetETAssignAgent.php:13
+#: includes/admin/resetETAssignAgent.php:14
+#: includes/admin/resetETChangeTicketStatus.php:13
+#: includes/admin/resetETChangeTicketStatus.php:14
+#: includes/admin/resetETDeleteTicket.php:13
+#: includes/admin/resetETDeleteTicket.php:14
+#: includes/admin/resetETReplyTicket.php:9
+#: includes/admin/resetETReplyTicket.php:10
+msgid "(ticket creator)"
+msgstr ""
+
+#: includes/admin/installation.php:839 includes/admin/installation.php:870
+#: includes/admin/resetETReplyTicket.php:13
+#: includes/admin/resetETReplyTicket.php:17
+msgid "Reply Description"
+msgstr ""
+
+#: includes/admin/installation.php:856
+msgid ""
+"<strong>{reply_by_name} ({reply_by_email})</strong> wrote:\n"
+"\t\t\t\t\t\t\t\t<p>{reply_description}</p>\n"
+"\t\t\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t\t\t<br />"
+msgstr ""
+
+#: includes/admin/installation.php:911
+#: includes/admin/resetETChangeTicketStatus.php:22
+msgid "User who changed status"
+msgstr ""
+
+#: includes/admin/installation.php:917
+msgid ""
+"<strong>Below are details of ticket:</strong><br />\n"
+"                    <br />\n"
+"                    ------------------------------------------------------------------------------------------------------------------------------------"
+"<br />\n"
+"                    <strong>Subject:</strong> {ticket_subject}<br />\n"
+"                    <strong>Status:</strong> {ticket_status}<br />\n"
+"                    <strong>Category:</strong> {ticket_category}<br />\n"
+"                    <strong>Priority:</strong> {ticket_priority}<br />\n"
+"                    ------------------------------------------------------------------------------------------------------------------------------------"
+"<br />\n"
+"                    <strong>Description:</strong><br />\n"
+"                    {ticket_description}"
+msgstr ""
+
+#: includes/admin/installation.php:969 includes/admin/installation.php:1029
+#: includes/admin/resetETAssignAgent.php:22
+#: includes/admin/resetETDeleteTicket.php:21
+msgid "User who assigned ticket"
+msgstr ""
+
+#: includes/admin/installation.php:970
+#: includes/admin/resetETAssignAgent.php:23
+msgid "User to whom assigned ticket before"
+msgstr ""
+
+#: includes/admin/installation.php:971
+#: includes/admin/resetETAssignAgent.php:24
+msgid "User to whom assigned ticket now"
+msgstr ""
+
+#: includes/admin/installation.php:976
+msgid "{updated_by} assigned ticket to {new_assigned_to}"
+msgstr ""
+
+#: includes/admin/installation.php:977
+msgid ""
+"<strong>Below are details of ticket:</strong><br />\n"
+"                    <br />\n"
+"                    ------------------------------------------------------------------------------------------------------------------------------------"
+"<br />\n"
+"                    <strong>Subject:</strong> {ticket_subject}<br />\n"
+"                    <strong>Status:</strong> {ticket_status}<br />\n"
+"                    <strong>Category:</strong> {ticket_category}<br />\n"
+"                    <strong>Priority:</strong> {ticket_priority}<br />\n"
+"                    <strong>Previously Assigned:</strong> {old_assigned_to}"
+"<br />\n"
+"                    ------------------------------------------------------------------------------------------------------------------------------------"
+"<br />\n"
+"                    <strong>Description:</strong><br />\n"
+"                    {ticket_description}"
+msgstr ""
+
+#: includes/admin/installation.php:1034
+msgid "{updated_by} deleted ticket #{ticket_id}"
+msgstr ""
+
+#: includes/admin/installation.php:1035
+msgid ""
+"<strong>Below ware details of ticket:</strong><br />\n"
+"                    <br />\n"
+"                    ------------------------------------------------------------------------------------------------------------------------------------"
+"<br />\n"
+"                    <strong>Subject:</strong> {ticket_subject}<br />\n"
+"                    <strong>Status:</strong> {ticket_status}<br />\n"
+"                    <strong>Category:</strong> {ticket_category}<br />\n"
+"                    <strong>Priority:</strong> {ticket_priority}<br />\n"
+"                    ------------------------------------------------------------------------------------------------------------------------------------"
+"<br />\n"
+"                    <strong>Description:</strong><br />\n"
+"                    {ticket_description}"
+msgstr ""
+
+#: includes/admin/installation.php:1139
+msgid "This ticket is closed for new replies."
+msgstr ""
+
+#: includes/admin/installation.php:1292
+msgid "Add Notes"
+msgstr ""
+
+#: includes/admin/openFrontEndFAQ.php:12
+msgid "Back to FAQs"
+msgstr ""
+
+#: includes/admin/open_ticket/open_ticket_form.php:19
+msgid "Incorrect Ticket ID or Email Address!"
+msgstr ""
+
+#: includes/admin/open_ticket/open_ticket_form.php:54
+msgid "Ticket Link"
+msgstr ""
+
+#: includes/admin/open_ticket/open_ticket_form.php:56
+msgid "Dear"
+msgstr ""
+
+#: includes/admin/open_ticket/open_ticket_form.php:58
+msgid "Please click on below link to open ticket:"
+msgstr ""
+
+#: includes/admin/open_ticket/open_ticket_form.php:73
+msgid "Success! Ticket link now sent to your email address."
+msgstr ""
+
+#: includes/admin/open_ticket/open_ticket_form.php:84
+msgid "Ticket ID and Email Address does not match!"
+msgstr ""
+
+#: includes/admin/open_ticket/open_ticket_form.php:93
+msgid "Ticket # (Number Only)"
+msgstr ""
+
+#: includes/admin/open_ticket/open_ticket_form.php:95
+msgid "Email Address used for this ticket"
+msgstr ""
+
+#: includes/admin/open_ticket/open_ticket_form.php:99
+msgid "Get Link"
+msgstr ""
+
+#: includes/admin/replyFormPosition.php:23
+#: includes/admin/replyFormPosition.php:29
+msgid "Comma separated list"
+msgstr ""
+
+#: includes/admin/searchRegisteredUsaers.php:18
+msgid "Username"
+msgstr ""
+
+#: includes/admin/searchRegisteredUsaers.php:43
+msgid "No Results Found"
+msgstr ""
+
+#: includes/admin/selectRegisteredUser.php:5
+msgid "Username or Email"
+msgstr ""
+
+#: includes/admin/selectRegisteredUser.php:6
+msgid "Search"
+msgstr ""
+
+#: includes/admin/showFAQ.php:7 includes/admin/showcanned.php:7
+msgid "+ Add New"
+msgstr ""
+
+#: includes/admin/showFAQ.php:18
+msgid "Question"
+msgstr ""
+
+#: includes/admin/showFAQ.php:37
+msgid "No FAQ's Found"
+msgstr ""
+
+#: includes/admin/showcanned.php:20 includes/admin/ticket_filter.php:323
+msgid "Created By"
+msgstr ""
+
+#: includes/admin/showcanned.php:39 includes/admin/showcanned.php:84
+msgid "Share"
+msgstr ""
+
+#: includes/admin/showcanned.php:64
+msgid "Users"
+msgstr ""
+
+#: includes/admin/submit_reply_confirm_box.php:5
+msgid "Submit Reply?"
+msgstr ""
+
+#: includes/admin/ticketActionDashboard.php:13
+#: includes/ticketActionFront.php:6
+msgid "Reset Filter"
+msgstr ""
+
+#: includes/admin/ticketActionDashboard.php:16
+msgid "Sync Emails"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:114
+#: includes/admin/ticket_filter_front.php:116
+msgid "Status:"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:148
+msgid "Deleted"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:160
+msgid "Type:"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:164
+msgid "User"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:198
+msgid "Assigned to:"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:271
+#: includes/admin/ticket_filter_front.php:191
+msgid "10"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:272
+#: includes/admin/ticket_filter_front.php:192
+msgid "20"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:273
+#: includes/admin/ticket_filter_front.php:193
+msgid "30"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:274
+#: includes/admin/ticket_filter_front.php:194
+msgid "40"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:275
+#: includes/admin/ticket_filter_front.php:195
+msgid "50"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:276
+msgid "100"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:277
+msgid "500"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:319
+msgid "Search By:"
+msgstr ""
+
+#: includes/admin/ticket_filter.php:331
+#: includes/admin/ticket_filter_front.php:264
+msgid "Apply & Remember"
+msgstr ""
+
+#: includes/admin/ticket_filter_front.php:244
+msgid "By:"
+msgstr ""
+
+#: includes/admin/ticket_filter_front.php:249
+msgid "Created_by"
+msgstr ""
+
+#: includes/admin/wpspCheckLogin.php:9
+msgid "Incorrect Username or Password"
+msgstr ""
+
+#: includes/anti_spam/anti-spam-loader.php:4
+msgid "Are you human?"
+msgstr ""
+
+#: includes/anti_spam/anti-spam-loader.php:5
+msgid ""
+"Sorry to ask but we need to keep spam bots out. Please click below checkbox "
+"and wait until it is done."
+msgstr ""
+
+#: includes/anti_spam/anti-spam-loader.php:14
+msgid "I'm not a robot"
+msgstr ""
+
+#: includes/create_new_ticket.php:19
+msgid "OR"
+msgstr ""
+
+#: includes/create_new_ticket.php:28 includes/linkReplyForm.php:41
+msgid "Please Wait..."
+msgstr ""
+
+#: includes/guestTicketForm.php:60 includes/guestUser.php:8
+#: includes/loggedInUser.php:66 includes/loggedInUser.php:72
+#: includes/loggedInUser.php:81 includes/loggedInUser.php:87
+#: includes/loggedInUserAllTickets.php:33
+#: includes/loggedInUserCreateTicket.php:18
+msgid "Please Wait"
+msgstr ""
+
+#: includes/guestTicketForm.php:336
+msgid " Public"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:6
+msgid "Add-On licenses"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:17
+msgid "Add-On"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:18
+msgid "License Key"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:26
+msgid "Email Piping"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:30
+#: includes/licenses/getAddOnLicenses.php:61
+#: includes/licenses/getAddOnLicenses.php:92
+#: includes/licenses/getAddOnLicenses.php:123
+#: includes/licenses/getAddOnLicenses.php:154
+#: includes/licenses/getAddOnLicenses.php:185
+#: includes/licenses/getAddOnLicenses.php:216
+#: includes/licenses/getAddOnLicenses.php:247
+msgid "Save & Activate"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:32
+#: includes/licenses/getAddOnLicenses.php:63
+#: includes/licenses/getAddOnLicenses.php:94
+#: includes/licenses/getAddOnLicenses.php:125
+#: includes/licenses/getAddOnLicenses.php:156
+#: includes/licenses/getAddOnLicenses.php:187
+#: includes/licenses/getAddOnLicenses.php:218
+#: includes/licenses/getAddOnLicenses.php:249
+msgid "Deactivate"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:39
+#: includes/licenses/getAddOnLicenses.php:70
+#: includes/licenses/getAddOnLicenses.php:101
+#: includes/licenses/getAddOnLicenses.php:132
+#: includes/licenses/getAddOnLicenses.php:163
+#: includes/licenses/getAddOnLicenses.php:194
+#: includes/licenses/getAddOnLicenses.php:225
+#: includes/licenses/getAddOnLicenses.php:256
+msgid "Inactive"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:57
+msgid "Woocommerce"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:88
+msgid "Export Ticket"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:119
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:150
+msgid "Company / Usergroups"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:181
+msgid "Timer"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:212
+msgid "Google Calender Events"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:243
+msgid "Advanced Canned Reply"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:273
+msgid "No Add-Ons activated"
+msgstr ""
+
+#: includes/licenses/getAddOnLicenses.php:273
+msgid "See available Add-Ons"
+msgstr ""
+
+#: includes/linkReplyForm.php:22
+msgid "Reply to Ticket #"
+msgstr ""
+
+#: includes/linkReplyForm.php:52
+msgid "Please insert your name!"
+msgstr ""
+
+#: includes/linkReplyForm.php:56
+msgid "Please insert your email!"
+msgstr ""
+
+#: includes/linkReplyForm.php:60
+msgid "Please insert description!"
+msgstr ""
+
+#: includes/linkReplyForm.php:64
+msgid "Please insert valid email!"
+msgstr ""
+
+#: includes/linkReplyForm.php:68 includes/shortcode.php:89
+msgid "Please prove you are a human!"
+msgstr ""
+
+#: includes/loginForm.php:7
+msgid "Enter Username"
+msgstr ""
+
+#: includes/loginForm.php:8
+msgid "Enter Password"
+msgstr ""
+
+#: includes/loginForm.php:9
+msgid "Login"
+msgstr ""
+
+#: includes/loginForm.php:10
+msgid "Forgot Password?"
+msgstr ""
+
+#: includes/loginForm.php:11 includes/loginForm.php:22
+msgid "Click Here"
+msgstr ""
+
+#: includes/loginForm.php:14
+msgid "Don't have account?"
+msgstr ""
+
+#: includes/loginForm.php:15
+msgid "Register Here"
+msgstr ""
+
+#: includes/loginForm.php:21
+msgid "Have ticket ID?"
+msgstr ""
+
+#: includes/loginForm.php:23
+msgid "to get ticket link"
+msgstr ""
+
+#: includes/loginForm.php:43
+msgid "Click Here to Login"
+msgstr ""
+
+#: includes/openEncryptedTicketID.php:201
+msgid "Attachment: "
+msgstr ""
+
+#: includes/openEncryptedTicketID.php:250
+msgid ""
+"This link is expired. Please insert Ticket ID and your Email Address used to "
+"create the ticket. New link will be sent to your email."
+msgstr ""
+
+#: includes/shortcode.php:62
+msgid "Username or Password missing!!!"
+msgstr ""
+
+#: includes/shortcode.php:78
+msgid "Are you sure to submit?"
+msgstr ""
+
+#: includes/shortcode.php:81
+msgid "uploading..."
+msgstr ""
+
+#: includes/support_panel.php:21
+msgid "Online Skype Chat Agents"
+msgstr ""
+
+#: includes/support_panel.php:24
+msgid "Skype Chat"
+msgstr ""
+
+#: includes/support_panel.php:39
+msgid "Online Skype Call Agents"
+msgstr ""
+
+#: includes/support_panel.php:42
+msgid "Skype Call"
+msgstr ""
+
+#: includes/support_panel.php:65
+msgid "Support Ticket"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://wordpress.org/plugins/wp-support-plus-responsive-ticket-system-"
+"ticket-system/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easy to use Customer Support System in Wordpress itself!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pradeep Makone"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://profiles.wordpress.org/pradeepmakone07/"
+msgstr ""

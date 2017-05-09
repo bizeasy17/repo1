@@ -1,0 +1,161 @@
+/**
+ *
+ * -------------------------------------------
+ * Small Tablet CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 12. Small Tablet code
+ *
+ *
+------------------------------------ */
+ 
+/* 12.1. Base elements
+==================================== */ 
+
+#gk-mainbody article > header h1,
+#gk-mainbody article > header h2 {
+	font-size: 34px;
+}
+
+#gk-main-menu.gk-menu-overlay {
+	border: 0;
+}
+
+.gk-meta-post {
+	margin: 12px 0;
+}
+
+/* containters */
+#gk-sidebar-left,
+.gk-page-wrap {
+	clear: both;
+	width: 100%!important;
+}
+
+#gk-sidebar-left {
+	border: 1px solid #e5e5e5;
+	border-top: none;
+}
+#gk-sidebar-left .box {
+	border-top: none;
+	float: left;
+	padding: 12px;
+	width: 50%;
+}
+#gk-sidebar-left .box:nth-child(2n+1) {
+	clear: both;
+}
+
+article.gk-has-aside .gk-article-body {
+	padding-left: 125px;
+}
+
+#main-menu.gk-menu-overlay {
+	height: auto;
+	min-height: 21px;
+}
+
+#gk-menu-overlay-wrap {
+	margin: -20px 0 0 -260px!important;
+	max-width: 520px!important;
+}
+#gk-menu-overlay.open {
+	margin-top: 0;
+}
+
+#gk-menu-overlay-content li {
+	font-size: 20px;
+}
+#gk-menu-overlay-content li,
+#gk-menu-overlay-content li a {
+	line-height: 58px;
+}
+
+#gk-bottom1 .box.double,
+#gk-bottom1 .box.double ~ .box,
+#gk-bottom2 .box.double,
+#gk-bottom2 .box.double ~ .box,
+#gk-bottom3 .box.double,
+#gk-bottom3 .box.double ~ .box,
+.widget-area .box.double.last2,
+.widget-area .box.double.last2 ~ .box.last2 {
+	width: 100%!important;
+}
+
+.gk-columns[data-column-count="2"] > div,
+.gk-columns[data-column-count="3"] > div,
+.gk-columns[data-column-count="4"] > div {
+	padding-bottom: 20px!important;
+	width: 100%;
+}
+
+#gallery figcaption {
+	padding: 15px!important;
+}
+
+#gallery figcaption h3 {
+	font-size: 16px!important;
+}
+
+#gallery figcaption p,
+#gallery figcaption {
+	font-size: 12px!important;
+}
+
+.author-info > div {
+	padding: 0 0 0 105px;
+}
+
+/* other */
+#gk-mainbody .box, #gk-mainbody .box.right.gk_nsp {
+	margin-bottom: 0;
+}
+
+a.cssLogo, #gk-logo-small {
+	margin: 25px 0 20px 0;;
+}
+
+#gk-banner-top {
+	margin: 15px 0;
+}
+#gk-search {
+	left: 24%;
+	width: 20%;
+}
+ #gk-search #s {
+	padding: 8px 10px !important;
+}
+#gk-updates {
+	font-size: 11px;
+	line-height: 19px;
+	padding: 8px 10px;
+	width: 24%!important;
+}
+.box.banner-center img {
+	max-width: 100%;
+	width: auto;
+}
+
+#form-wysija-2 > p {
+	position: relative;
+	width: auto!important;
+}
+
+#gk-newsletter .box-title {
+	float: right;
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+
+.widget_wysija_cont {
+	clear: both;
+}
+
+.widget_wysija_cont .wysija-submit,
+.wysija-input {
+	float: right;
+}

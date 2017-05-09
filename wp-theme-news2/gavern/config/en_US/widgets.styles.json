@@ -1,0 +1,83 @@
+[
+	{
+		"name": "Light",
+		"css_class": "light",
+		"exclude": "widget_gk_comments"
+	},
+	{
+		"name": "Dark",
+		"css_class": "dark",
+		"exclude": "widget_gk_comments,widget_gk_nsp"
+	},
+	{
+		"name": "Title Border",
+		"css_class": "title-border"
+	},
+	{
+		"name": "Title-Color1",
+		"css_class": "title-color1"
+	},
+	{
+		"name": "Title-Color2",
+		"css_class": "title-color2"
+	},
+	{
+		"name": "Title-Color3",
+		"css_class": "title-color3"
+	},
+	{
+		"name": "Title-Color4",
+		"css_class": "title-color4"
+	},
+	{
+		"name": "Title-Color5",
+		"css_class": "title-color5"
+	},
+	{
+		"name": "Title-Color6",
+		"css_class": "title-color6"
+	},
+	{
+		"name": "Color",
+		"css_class": "color",
+		"exclude": "widget_gk_comments,widget_gk_nsp"
+	},
+	{
+		"name": "Menu",
+		"css_class": "menu"
+	},
+	{
+		"name": "Advertisement",
+		"css_class": "advertisement"
+	},
+	{
+		"name": "Banner",
+		"css_class": "banner",
+		"for_only": "text"
+	},
+	{
+		"name": "Banner-center",
+		"css_class": "banner-center"
+	},
+	{
+		"name": "Clear",
+		"css_class": "clear"
+	},
+	{
+		"name": "Clear-horizontal",
+		"css_class": "clear-horizontal"
+	},
+	{
+		"name": "No border",
+		"css_class": "no-border"
+	},
+	{
+		"name": "Double",
+		"css_class": "double"
+	},
+	{
+		"name": "Unified style",
+		"css_class": "tags",
+		"for_only": "tag_cloud"
+	}
+]

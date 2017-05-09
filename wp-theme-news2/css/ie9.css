@@ -1,0 +1,35 @@
+/**
+ *
+ * -------------------------------------------
+ * IE code fixes
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 14. IE
+ *
+ *
+------------------------------------ */
+
+/* 14.2. IE9
+==================================== */
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="www"],
+input[type="tel"] {
+	line-height: 1.2!important;
+}
+
+.gk-page-wrap {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.imageLogo img {
+    max-width: auto!important;
+    width: auto!important;
+}

@@ -1,0 +1,551 @@
+/**
+ *
+ * -------------------------------------------
+ * WP Extensions CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 8. Additional WP extensions styles
+ *
+ *
+------------------------------------ */
+
+/* 8.1. Archives widget
+==================================== */
+
+.widget_archive li {
+	color: #848484;
+	padding: 2px 0;
+}
+
+.widget_archive li a {
+	font-size: 13px;
+	padding-right: 4px;
+}
+
+.widget_archive li a:active,
+.widget_archive li a:focus,
+.widget_archive li a:hover {
+	color: #4c90fe;
+}
+
+/* 8.2. Custom menu widget
+==================================== */
+
+/* 8.3. Pages widget
+==================================== */
+
+/* 8.4. RSS widget
+==================================== */
+
+.box h3.box-title .rsswidget {
+	clear: none;
+	float: left;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.box .rsswidget {
+	clear: both;
+	display: block;
+	font-size: 16px;
+	margin: 20px 0 10px;
+}
+
+.box .rss-date {
+	clear: both;
+	display: block;
+	font-size: 11px;
+	font-style: italic;
+	margin-top: -10px;
+	text-align: right;
+}
+
+.box .rssSummary {
+	clear: both;
+	color: #888;
+	font-size: 12px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.widget_rss cite {
+	font-size: 12px;
+}
+
+/* 8.5. Text widget
+==================================== */
+
+
+/* 8.6. Calendar widget
+==================================== */
+
+.box #wp-calendar {
+	background: #fff;
+	width: 100%;
+}
+
+.box #wp-calendar caption {
+	background: #fff;
+	border: 1px solid #eee;
+	color: #000;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 7px 0;
+}
+
+.box #wp-calendar th {
+	background: #f5f5f5;
+	border-right: 1px solid #eee;
+	padding: 6px 3px;
+	font-size: 11px;
+	color: #333;
+	font-weight: bold;
+}
+
+.box #wp-calendar th:first-child {
+	border-left: 1px solid #eee;
+}
+
+.box #wp-calendar td {
+	background: #fff;
+	border: 1px solid #eee;
+	font-size: 11px;
+	padding: 6px 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.box #wp-calendar td.pad {
+	background: #fbfbfb;
+}
+
+.box #wp-calendar #today {
+	background: #eb1e00;
+	color: #fff;
+	font-size: 14px;
+}
+
+.box #wp-calendar td a {
+	color: #eb1e00;
+}
+
+.box #wp-calendar #today a {
+	color: #fff!important;
+}
+
+
+/* 8.7. Links widget
+==================================== */
+
+.box ul.xoxo a {
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.box ul.xoxo a img {
+	vertical-align: middle;
+}
+
+.box ul.xoxo li {
+	font-size: 10px;
+	padding: 5px 0;
+}
+
+/* 8.8. Recent comments widget
+==================================== */
+
+/* 8.9. Search widget
+==================================== */
+ 
+.box #searchform label,
+.box #searchform #searchsubmit {
+	display: none;
+}
+
+.box #searchform .field {
+	padding: 8px 20px !important;
+	position: relative;
+	width: 100%;
+}
+
+.box #searchform {
+	position: relative;
+}
+
+.box #searchform:after {
+	color: #111;
+	content: "\f002";
+	font-family: FontAwesome;
+	position: absolute;
+	right: 18px;
+	top: 6px;
+	z-index: 1;
+}
+ 
+/* 8.10. Categories widget
+==================================== */
+.box.widget_categories li,
+.box.widget_archive li {
+	color: #999;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 2.0;
+	padding: 11px 0 9px 0;
+}
+
+.box.widget_categories li a,
+.box.widget_archive li a {
+	font-size: 14px;
+	margin-right: 3px;
+}
+
+/* 8.11. Meta widget
+==================================== */
+
+/* 8.12. Recent posts widget
+==================================== */
+
+/* 8.13. Tag cloud widget
+==================================== */
+
+.box.tags .tagcloud {
+	overflow: hidden;
+}
+
+.box.tags .tagcloud a {
+	float: left;
+	font-size: 13px!important;
+	line-height: 1.5;
+	border: 1px solid #e5e5e5;
+	font-style: normal;
+	margin: 4px 3px 0 0;
+	padding: 9px 12px;
+}
+
+.box.tags .tagcloud a:active,
+.box.tags .tagcloud a:focus,
+.box.tags .tagcloud a:hover {
+	background: #eb1e00;
+	color: #fff!important;
+}
+
+/* 8.14. Common widget styles
+==================================== */
+
+/* Modules */
+.box {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		 -o-box-sizing: border-box;
+		 	box-sizing: border-box;
+	color: #555;
+	line-height: 1.6;
+	padding: 32px;
+	width: 100%;
+}
+
+#gk-sidebar-right .box {
+	padding: 24px;
+}
+
+#gk-mainbody .box {
+	margin-bottom: 30px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.box ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+.box ul li {
+	border-top: 1px solid #e5e5e5;
+	line-height: 1.6;
+	padding: 10px 0;
+}
+
+.box ul li .children {
+	margin-top: 8px;
+}
+
+#gk-top1 .box ul li {
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px 0;
+}
+
+.box ul li:first-child {
+	border: 0;
+}
+
+.box li a {
+	line-height: 1.0;
+}
+
+.box .box-title {
+	color: #222;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 14px;
+	margin: 0 0 22px 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+/* color style */
+.box.color {
+	background: #eb1e00;
+	color: rgba(255, 255, 255, 0.75);
+}
+.box.color .box-title { 
+	color: #fff;
+	line-height: 1.2; 
+}
+
+.box.color h1,
+.box.color h2,
+.box.color h3,
+.box.color h4,
+.box.color h5,
+.box.color h6 {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.box.color ul {
+	margin: 0;
+	padding: 0;
+}
+
+.box.color ul li {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+	border-top: 0;
+	position: relative;
+}
+
+.box.color ul li:last-child { border-bottom: none; }
+.box.color a { color: rgba(255, 255, 255, 0.95)!important; }
+.box.color a:active,
+.box.color a:focus,
+.box.color a:hover { 
+	color: rgba(255, 255, 255, 0.65)!important; 
+}
+
+/* Newsletter */
+.box.newsletter {
+	float: right!important;
+	max-width: 340px;
+	padding: 0!important;
+}
+
+/* Style advertisement */
+.box.advertisement .box-title {
+	background: transparent;
+	color: #c0c0c0!important;
+	font-size: 13px!important;
+	font-style: italic;
+	font-weight: 300;
+	line-height: 16px;
+	margin: 0 0 16px 0;
+	min-height: 21px;
+	padding: 0;
+	text-transform: none;
+}
+
+/* Style clear */
+.box.clear {
+	clear: none;
+	margin: 0!important;
+	padding: 0!important;
+}
+
+.box.clear img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+/* Clear horizontal */
+.box.clear-horizontal,
+#gk-sidebar-right .box.clear-horizontal,
+#gk-sidebar-left .box.clear-horizontal,
+#gk-inset .box.clear-horizontal {
+	clear: none;
+	margin-left: 0!important;
+	margin-right: 0!important;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* banner-center */
+.box.banner-center {
+	text-align: center;
+}
+.box.banner-center.clear img {
+	margin: 0 auto;
+}
+
+/* banner */
+.box.banner img {
+	display: block;
+}
+
+/* no-border */
+.box.no-border {
+	border: none!important;
+}
+
+/* Style light */
+.box.light {
+	background: #f1f1f1;
+}
+
+/* Style banner */
+.box.banner img {
+	display: block;
+}
+
+/* Style dark */
+.box.dark,
+.dark-area .box {
+	background: #000!important;
+	color: #eee;
+}
+
+.dark-area .box {
+	background: transparent!important;
+	padding: 0!important;
+}
+
+.box.dark .box-title,
+.dark-area .box .box-title {
+	background: transparent!important;
+	color: #fff;
+	line-height: 1.2;
+}
+
+.box.dark h1,
+.box.dark h2,
+.box.dark h3,
+.box.dark h4,
+.box.dark h5,
+.box.dark h6 {
+	color: #ddd;
+}
+
+.box.dark ul {
+	margin: 0;
+	padding: 0;
+}
+
+.box.dark ul li {
+	border-top: 1px solid #333;
+	position: relative;
+}
+
+.box.dark ul li:first-child {
+	border-top: none;
+}
+
+.box.dark a {
+	color: #aaa!important;
+}
+
+.box.dark a:active,
+.box.dark a:focus,
+.box.dark a:hover {
+	color: #eb1e00!important;
+}
+
+.box.dark ul ul {
+	margin: 0 0 0 20px;
+}
+
+/* Style menu */
+.box.menu ul ul {
+	margin-left: 0;
+}
+.box.menu li {
+	border: 0;
+	line-height: 1;
+	padding: 2px 0;
+	position: relative;
+	-webkit-transition: padding .3s ease-out;
+	-moz-transition: padding .3s ease-out;
+	-ms-transition: padding .3s ease-out;
+	-o-transition: padding .3s ease-out;
+	transition: padding .3s ease-out;
+}
+.box.menu li:hover { 
+	padding: 2px 0 2px 12px;
+}
+
+.box.menu li:before {
+	color: #fff;
+	content: "\f105";
+	font-family: FontAwesome;
+	left: -20px;
+	position: absolute;
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+	top: 8px;
+}
+
+.box.menu li:hover:before {
+	color: #eb1e00;
+	left: 0px;
+}
+
+.box.menu li a {
+	display: inline-block;
+	line-height: 1;
+	padding: 7px 0;
+}
+
+/* Style title border */
+.box.title-border .box-title {
+	border-top: 1px solid #e5e5e5;
+	padding-top: 20px;
+}
+
+.box.title-border.title-color1 .box-title { border-top: 1px solid #eb1e00; }
+.box.title-border.title-color2 .box-title { border-top: 1px solid #56afc3; }
+.box.title-border.title-color3 .box-title { border-top: 1px solid #ffc000; }
+.box.title-border.title-color4 .box-title { border-top: 1px solid #8560a8; }
+.box.title-border.title-color5 .box-title { border-top: 1px solid #fa5f00; }
+.box.title-border.title-color6 .box-title { border-top: 1px solid #736357; }
+
+/* Style colortitles */
+.box.title-color1 .box-title,
+.box.title-color1 .gk-nsp-link-header a:hover,
+.box.title-color1 .gk-nsp-header a:hover,
+.box.title-color1 .gk-nsp-links-readon:hover { color: #eb1e00!important; }
+.box.title-color2 .box-title,
+.box.title-color2 .gk-nsp-link-header a:hover,
+.box.title-color2 .gk-nsp-header a:hover,
+.box.title-color2 .gk-nsp-links-readon:hover { color: #56afc3!important; }
+.box.title-color3 .box-title,
+.box.title-color3 .gk-nsp-link-header a:hover,
+.box.title-color3 .gk-nsp-header a:hover,
+.box.title-color3 .gk-nsp-links-readon:hover { color: #ffc000!important; }
+.box.title-color4 .box-title,
+.box.title-color4 .gk-nsp-link-header a:hover,
+.box.title-color4 .gk-nsp-header a:hover,
+.box.title-color4 .gk-nsp-links-readon:hover { color: #8560a8!important; }
+.box.title-color5 .box-title,
+.box.title-color5 .gk-nsp-link-header a:hover,
+.box.title-color5 .gk-nsp-header a:hover,
+.box.title-color5 .gk-nsp-links-readon:hover { color: #fa5f00!important; } 
+.box.title-color6 .box-title,
+.box.title-color6 .gk-nsp-link-header a:hover,
+.box.title-color6 .gk-nsp-header a:hover,
+.box.title-color6 .gk-nsp-links-readon:hover { color: #736357!important; }

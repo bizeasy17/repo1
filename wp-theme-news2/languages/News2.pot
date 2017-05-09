@@ -1,0 +1,1437 @@
+# Translation of the WordPress theme News2 by the GavickPro team.
+# Copyright (C) GavickPro 2012-2014
+# This file is distributed under the same license as the PACKAGE package.
+# GavickPro <info@gavick.com>, 2012-2014.
+#
+#, fuzzy
+msgid   ""
+msgstr  ""
+"Project-Id-Version: News2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-21 08:56+0200\n"
+"PO-Revision-Date: 2014-03-21 9:56+0200\n"
+"Last-Translator: GavickPro <info@gavick.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+
+#: layouts/content.post.footer.php:16
+msgid   " "
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:528
+#, php-format
+msgid   " %s "
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:275
+msgid   "% "
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:99
+#, php-format
+msgid   "%1$s %2$s"
+msgstr  ""
+
+#: comments.php:29
+#, php-format
+msgid   "%1$s Comments"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:108
+#, php-format
+msgid   "%1$s at %2$s"
+msgstr  ""
+
+#: gavern/filters.php:310
+msgid   "&laquo; Back"
+msgstr  ""
+
+#: comments.php:37 comments.php:54
+msgid   "&larr; Older Comments"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:263
+msgid   ", "
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:273
+#: gavern/helpers/helpers.layout.fragments.php:281
+msgid   "0"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:274
+msgid   "1 "
+msgstr  ""
+
+#: comments.php:25
+msgid   "1 Comment"
+msgstr  ""
+
+#: gavern/widgets.weather.php:723 gavern/widgets.weather.php:739
+msgid   "128&times;128px"
+msgstr  ""
+
+#: comments.php:27
+msgid   "2 Comments"
+msgstr  ""
+
+#: gavern/widgets.weather.php:729 gavern/widgets.weather.php:745
+msgid   "32&times;32px"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:509
+msgid   "404 page"
+msgstr  ""
+
+#: gavern/widgets.weather.php:726 gavern/widgets.weather.php:742
+msgid   "64&times;64px"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:1063
+msgid   "< Prev"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:283
+msgid   "<span>%</span> comments"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:282
+msgid   "<span>1</span> comment"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:524
+msgid   "Add page"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:60
+msgid   "Adobe Edge Fonts"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:132
+msgid   "Adobe Edge Fonts URL: "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:671
+msgid   "All devices"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:80
+msgid   "All levels"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:489
+msgid   "All pages"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:490
+msgid   "All pages except:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:687
+msgid   "All users"
+msgstr  ""
+
+#: template.login.php:172
+msgid   "Already a member?"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:93
+msgid   "Animation for "
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:109
+msgid   "Animation speed for "
+msgstr  ""
+
+#: layouts/content.post.footer.php:116
+msgid   "Apologies, but no posts were found."
+msgstr  ""
+
+#: layouts/content.post.footer.php:88
+msgid   "Apologies, but no related posts were found."
+msgstr  ""
+
+#: category.php:133 index.php:65 author.php:46 template.latest.php:58
+#: tag.php:46 archive.php:46
+msgid   "Apologies, but no results were found for the requested archive. "
+        "Perhaps searching will help find a related post."
+msgstr  ""
+
+#: gavern/widgets.weather.php:392
+msgid   "Apr"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:503
+msgid   "Archive"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:465
+msgid   "Archives"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:292
+msgid   "Attachment size:"
+msgstr  ""
+
+#: gavern/widgets.weather.php:396
+msgid   "Aug"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:504
+msgid   "Author"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:518
+msgid   "Author:"
+msgstr  ""
+
+#: gavern/widgets.comments.php:201
+msgid   "Avatar size:"
+msgstr  ""
+
+#: template.contact.php:187
+msgid   "Back to the homepage"
+msgstr  ""
+
+#: layouts/footer.php:21
+msgid   "Back to top"
+msgstr  ""
+
+#: gavern/layouts/template.php:28 gavern/options.importexport.php:29
+msgid   "Based on the Gavern WP framework"
+msgstr  ""
+
+#: gavern/widgets.weather.php:185
+msgid   "Blowing Snow"
+msgstr  ""
+
+#: gavern/widgets.weather.php:193
+msgid   "Blustery"
+msgstr  ""
+
+#: template.login.php:222
+msgid   "Cancel"
+msgstr  ""
+
+#: template.archive.php:40
+msgid   "Categories"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:500
+msgid   "Category"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:515
+msgid   "Category ID/Name/slug:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:516
+msgid   "Category ID:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:501
+msgid   "Category with descendants"
+msgstr  ""
+
+#: gavern/widgets.weather.php:671
+msgid   "Celsius"
+msgstr  ""
+
+#: gavern/widgets.weather.php:586
+msgid   "City name:"
+msgstr  ""
+
+#: gavern/widgets.weather.php:199
+msgid   "Clear"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:1066
+msgid   "Close"
+msgstr  ""
+
+#: gavern/widgets.weather.php:196
+msgid   "Cloudy"
+msgstr  ""
+
+#: gavern/widgets.weather.php:195
+msgid   "Cold"
+msgstr  ""
+
+#: comments.php:68
+msgid   "Comments are closed."
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:59 gavern/form_elements/Menu/menu.php:66
+msgid   "Conditional rule"
+msgstr  ""
+
+#: template.contact.php:183
+msgid   "Contact Form"
+msgstr  ""
+
+#: content-gallery.php:58
+msgid   "Continue reading &rarr;"
+msgstr  ""
+
+#: template.login.php:168
+msgid   "Create an account"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:661
+msgid   "Custom CSS class"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:668
+msgid   "Custom CSS class: "
+msgstr  ""
+
+#: gavern/layouts/template.php:30
+msgid   "Customize theme"
+msgstr  ""
+
+#: gavern/widgets.weather.php:710
+msgid   "Dark"
+msgstr  ""
+
+#: gavern/widgets.weather.php:400
+msgid   "Dec"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:75
+msgid   "Depth of "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:69
+msgid   "Description:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:672
+msgid   "Desktop"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:102
+#: gavern/helpers/helpers.features.php:110
+#: gavern/helpers/helpers.features.php:118
+#: gavern/helpers/helpers.features.php:125
+#: gavern/helpers/helpers.features.php:132
+#: gavern/helpers/helpers.features.php:139
+#: gavern/helpers/helpers.features.php:146
+#: gavern/helpers/helpers.features.php:153
+#: gavern/helpers/helpers.features.php:161
+#: gavern/helpers/helpers.features.php:168
+#: gavern/helpers/helpers.features.php:175
+#: gavern/form_elements/Menu/menu.php:58 gavern/form_elements/standard.php:237
+msgid   "Disabled"
+msgstr  ""
+
+#: gavern/functions.php:98
+msgid   "Documentation"
+msgstr  ""
+
+#: gavern/widgets.weather.php:180
+msgid   "Drizzle"
+msgstr  ""
+
+#: gavern/widgets.weather.php:189
+msgid   "Dust"
+msgstr  ""
+
+#: template.contact.php:128
+msgid   "E-mail:"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:80
+#: gavern/helpers/helpers.layout.fragments.php:115
+#: gavern/helpers/helpers.layout.fragments.php:314
+msgid   "Edit"
+msgstr  ""
+
+#: template.contact.php:210
+msgid   "Email:"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:52
+msgid   "Enable"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:101
+#: gavern/helpers/helpers.features.php:109
+#: gavern/helpers/helpers.features.php:117
+#: gavern/helpers/helpers.features.php:124
+#: gavern/helpers/helpers.features.php:131
+#: gavern/helpers/helpers.features.php:138
+#: gavern/helpers/helpers.features.php:145
+#: gavern/helpers/helpers.features.php:152
+#: gavern/helpers/helpers.features.php:160
+#: gavern/helpers/helpers.features.php:167
+#: gavern/helpers/helpers.features.php:174
+#: gavern/form_elements/Menu/menu.php:57 gavern/form_elements/standard.php:238
+msgid   "Enabled"
+msgstr  ""
+
+#: gavern/form_elements/standard.php:274
+msgid   "Enter an URL or upload an image."
+msgstr  ""
+
+#: gavern/widgets.weather.php:674
+msgid   "Fahrenheit"
+msgstr  ""
+
+#: gavern/widgets.weather.php:201
+msgid   "Fair"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:114
+msgid   "Fast animation (250ms)"
+msgstr  ""
+
+#: layouts/content.post.featured.php:39 layouts/content.post.featured.php:64
+msgid   "Featured"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:264
+#: gavern/helpers/helpers.features.php:265
+msgid   "Featured Video"
+msgstr  ""
+
+#: gavern/widgets.weather.php:390
+msgid   "Feb"
+msgstr  ""
+
+#: gavern/widgets.weather.php:216
+msgid   "Fog"
+msgstr  ""
+
+#: gavern/widgets.weather.php:190
+msgid   "Foggy"
+msgstr  ""
+
+#: gavern/layouts/template.php:33
+msgid   "Follow us on the social media: "
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:63
+msgid   "Font family: "
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:58
+msgid   "Fonts Squirrel"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:103
+msgid   "Fonts Squirrel: "
+msgstr  ""
+
+#: gavern/widgets.weather.php:179
+msgid   "Freezing Drizzle"
+msgstr  ""
+
+#: gavern/widgets.weather.php:181
+msgid   "Freezing Rain"
+msgstr  ""
+
+#: template.contact.php:108 template.contact.php:110 template.contact.php:112
+msgid   "From "
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:296
+#, php-format
+msgid   "Full size is %s pixels"
+msgstr  ""
+
+#: gavern/widgets.comments.php:20
+msgid   "GK Comments"
+msgstr  ""
+
+#: gavern/widgets.weather.php:28
+msgid   "GK Weather"
+msgstr  ""
+
+#: gavern/functions.php:109
+msgid   "GavickPro Website"
+msgstr  ""
+
+#: gavern/widgets.weather.php:591
+msgid   "Get the WOEID for your city"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:552
+msgid   "Google Profile"
+msgstr  ""
+
+#: gavern/filters.php:75
+msgid   "Google Profile URL"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:59
+msgid   "Google Web Fonts"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:118
+msgid   "Google Web Fonts URL: "
+msgstr  ""
+
+#: gavern/widgets.weather.php:187
+msgid   "Hail"
+msgstr  ""
+
+#: gavern/widgets.weather.php:191
+msgid   "Haze"
+msgstr  ""
+
+#: gavern/widgets.weather.php:208
+msgid   "Heavy Snow"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:100
+msgid   "Height and Opacity"
+msgstr  ""
+
+#: template.login.php:32 template.login.php:182
+msgid   "Hi, "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:497 gavern/filters.php:350
+msgid   "Homepage"
+msgstr  ""
+
+#: gavern/widgets.weather.php:203
+msgid   "Hot"
+msgstr  ""
+
+#: gavern/widgets.weather.php:333
+msgid   "Humidity"
+msgstr  ""
+
+#: gavern/widgets.weather.php:173
+msgid   "Hurricane"
+msgstr  ""
+
+#: gavern/widgets.weather.php:719
+msgid   "Icon size (current weather):"
+msgstr  ""
+
+#: gavern/widgets.weather.php:735
+msgid   "Icon size (forecast):"
+msgstr  ""
+
+#: gavern/widgets.weather.php:706
+msgid   "Iconset:"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:1064
+msgid   "Image"
+msgstr  ""
+
+#: gavern/functions.php:71
+msgid   "Import/Export"
+msgstr  ""
+
+#: gavern/widgets.weather.php:204
+msgid   "Isolated Thunderstorms"
+msgstr  ""
+
+#: gavern/widgets.weather.php:212
+msgid   "Isolated thundershowers"
+msgstr  ""
+
+#: 404.php:18
+msgid   "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr  ""
+
+#: gavern/widgets.weather.php:389
+msgid   "Jan"
+msgstr  ""
+
+#: gavern/widgets.weather.php:395
+msgid   "Jul"
+msgstr  ""
+
+#: gavern/widgets.weather.php:394
+msgid   "Jun"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:72
+msgid   "Keywords:"
+msgstr  ""
+
+#: gavern/widgets.comments.php:56
+msgid   "Latest Comments"
+msgstr  ""
+
+#: layouts/content.post.footer.php:104
+#, php-format
+msgid   "Latest from %s "
+msgstr  ""
+
+#: template.archive.php:28
+msgid   "Latest posts"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:53
+msgid   "Layout"
+msgstr  ""
+
+#: gavern/widgets.weather.php:713
+msgid   "Light"
+msgstr  ""
+
+#: gavern/widgets.weather.php:220
+msgid   "Light Rain Showers"
+msgstr  ""
+
+#: gavern/widgets.weather.php:223
+msgid   "Light Snow"
+msgstr  ""
+
+#: gavern/widgets.weather.php:184
+msgid   "Light Snow Showers"
+msgstr  ""
+
+#: gavern/widgets.weather.php:215
+msgid   "Light rain"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:299
+msgid   "Link to full-size image"
+msgstr  ""
+
+#: template.login.php:48 template.login.php:196 layouts/header.php:116
+#: gavern/helpers/helpers.features.php:1014
+msgid   "Log In"
+msgstr  ""
+
+#: template.login.php:33 template.login.php:34 template.login.php:183
+#: template.login.php:184 layouts/header.php:118
+msgid   "Logout"
+msgstr  ""
+
+#: template.login.php:63 template.login.php:214
+msgid   "Lost your password?"
+msgstr  ""
+
+#: gavern/widgets.weather.php:391
+msgid   "Mar"
+msgstr  ""
+
+#: gavern/widgets.weather.php:393
+msgid   "May"
+msgstr  ""
+
+#: layouts/content.post.footer.php:37
+msgid   "Media"
+msgstr  ""
+
+#: gavern/helpers/helpers.shortcodes.php:551
+msgid   "Members only"
+msgstr  ""
+
+#: template.contact.php:117
+msgid   "Message from"
+msgstr  ""
+
+#: template.contact.php:134 template.contact.php:234
+msgid   "Message:"
+msgstr  ""
+
+#: gavern/widgets.weather.php:218
+msgid   "Mist"
+msgstr  ""
+
+#: gavern/widgets.weather.php:202
+msgid   "Mixed Rain and Hail"
+msgstr  ""
+
+#: gavern/widgets.weather.php:177
+msgid   "Mixed Rain and Sleet"
+msgstr  ""
+
+#: gavern/widgets.weather.php:176
+msgid   "Mixed Rain and Snow"
+msgstr  ""
+
+#: gavern/widgets.weather.php:178
+msgid   "Mixed Snow and Sleet"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:168
+msgid   "Mobile width"
+msgstr  ""
+
+#: template.archive.php:53
+msgid   "Monthly Archives"
+msgstr  ""
+
+#: 404.php:30
+msgid   "Most Used Categories"
+msgstr  ""
+
+#: gavern/widgets.weather.php:214
+msgid   "Mostly Clear"
+msgstr  ""
+
+#: gavern/widgets.weather.php:197
+msgid   "Mostly Cloudy"
+msgstr  ""
+
+#: template.contact.php:121 template.contact.php:198
+msgid   "Name:"
+msgstr  ""
+
+#: comments.php:40 comments.php:57
+msgid   "Newer Comments &rarr;"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:356
+msgid   "Newer posts"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:1062
+msgid   "Next >"
+msgstr  ""
+
+#: attachment.php:67
+msgid   "Next Image"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:102
+msgid   "No animation"
+msgstr  ""
+
+#: gavern/form_elements/standard.php:275
+msgid   "No image selected"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:528
+msgid   "No pages"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:491
+msgid   "No pages except:"
+msgstr  ""
+
+#: gavern/helpers/helpers.shortcodes.php:615
+msgid   "No related posts found"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:658
+msgid   "No styles available"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:629
+msgid   "None"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:115
+msgid   "Normal animation (500ms)"
+msgstr  ""
+
+#: gavern/widgets.weather.php:213
+msgid   "Not Available"
+msgstr  ""
+
+#: template.login.php:66 template.login.php:168
+msgid   "Not a member? Register"
+msgstr  ""
+
+#: category.php:129 index.php:61 search.php:52 search.php:62 author.php:42
+#: template.latest.php:54 tag.php:42 archive.php:42
+msgid   "Nothing Found"
+msgstr  ""
+
+#: gavern/widgets.weather.php:399
+msgid   "Nov"
+msgstr  ""
+
+#: gavern/widgets.comments.php:211
+msgid   "Number of comments:"
+msgstr  ""
+
+#: gavern/widgets.weather.php:398
+msgid   "Oct"
+msgstr  ""
+
+#: gavern/widgets.weather.php:635 gavern/widgets.weather.php:648
+#: gavern/widgets.weather.php:661 gavern/widgets.weather.php:687
+#: gavern/widgets.weather.php:700
+msgid   "Off"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:352
+msgid   "Older posts"
+msgstr  ""
+
+#: gavern/widgets.weather.php:632 gavern/widgets.weather.php:645
+#: gavern/widgets.weather.php:658 gavern/widgets.weather.php:684
+#: gavern/widgets.weather.php:697
+msgid   "On"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:690
+msgid   "Only administrator"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:688
+msgid   "Only guests"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:689
+msgid   "Only registered users"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:101
+msgid   "Opacity"
+msgstr  ""
+
+#: gavern/widgets.weather.php:222
+msgid   "PM Rain/Snow Showers"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:498
+msgid   "Page"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:60
+#, php-format
+msgid   "Page %s"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:513
+msgid   "Page ID/Title/slug:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:505
+msgid   "Page Template"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:59
+msgid   "Page additional params"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:55
+msgid   "Page keywords and description"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:123
+msgid   "Page layout"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:463
+msgid   "Page not found"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:332
+msgid   "Pages:"
+msgstr  ""
+
+#: gavern/widgets.weather.php:198 gavern/widgets.weather.php:209
+msgid   "Partly Cloudy"
+msgstr  ""
+
+#: template.login.php:46 template.login.php:197 template.login.php:199
+#: gavern/helpers/helpers.features.php:1010
+#: gavern/helpers/helpers.features.php:1012
+msgid   "Password"
+msgstr  ""
+
+#: template.login.php:63 template.login.php:214
+msgid   "Password Lost and Found"
+msgstr  ""
+
+#: 404.php:20
+msgid   "Perhaps searching, or one of the links below, can help."
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:310
+msgid   "Permalink"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:310
+#, php-format
+msgid   "Permalink to %1$s"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:465
+msgid   "Pin it"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:78
+msgid   "Pingback:"
+msgstr  ""
+
+#: gavern/layouts/template.php:63
+msgid   "Please check the form!"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:499
+msgid   "Post"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:514
+msgid   "Post ID/Title/slug:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:58
+msgid   "Post additional params"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:54
+msgid   "Post keywords and description"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:507
+msgid   "Post type"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:522
+msgid   "Post type:"
+msgstr  ""
+
+#: attachment.php:66
+msgid   "Previous Image"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:510
+msgid   "Product category"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:523
+msgid   "Product category:"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:460
+msgid   "Published by: "
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:262
+msgid   "Published in"
+msgstr  ""
+
+#: gavern/widgets.weather.php:219
+msgid   "Rain Shower"
+msgstr  ""
+
+#: gavern/widgets.weather.php:221
+msgid   "Rain/Snow Showers"
+msgstr  ""
+
+#: content-audio.php:28 content-status.php:29 attachment.php:31
+#: content-aside.php:29 content-video.php:30 content-chat.php:28
+#: content-archive.php:40 content-gallery.php:30 content-quote.php:29
+#: content-link.php:27 content.php:26 content-image.php:28
+msgid   "Read more"
+msgstr  ""
+
+#: template.login.php:66
+msgid   "Register"
+msgstr  ""
+
+#: layouts/content.post.footer.php:67
+msgid   "Related Posts"
+msgstr  ""
+
+#: template.login.php:47 template.login.php:195
+#: gavern/helpers/helpers.features.php:1013
+msgid   "Remember Me"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:122
+msgid   "Reply"
+msgstr  ""
+
+#: attachment.php:36
+#, php-format
+msgid   "Return to %s"
+msgstr  ""
+
+#: gavern/layouts/template.php:63
+msgid   "Save settings"
+msgstr  ""
+
+#: gavern/layouts/template.php:63
+msgid   "Saving&hellip;"
+msgstr  ""
+
+#: gavern/widgets.weather.php:206
+msgid   "Scattered Showers"
+msgstr  ""
+
+#: gavern/widgets.weather.php:207
+msgid   "Scattered Snow Showers"
+msgstr  ""
+
+#: gavern/widgets.weather.php:205
+msgid   "Scattered Thunderstorms"
+msgstr  ""
+
+#: searchform.php:13
+msgid   "Search"
+msgstr  ""
+
+#: search.php:21
+#, php-format
+msgid   "Search Results for: %s"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:508
+msgid   "Search page"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:57
+#, php-format
+msgid   "Search results for %s"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:468
+msgid   "Searching for: "
+msgstr  ""
+
+#: layouts/header.php:111
+msgid   "Select a page"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:495
+msgid   "Select page to add"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:527
+msgid   "Selected pages"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:145
+msgid   "Selectors:"
+msgstr  ""
+
+#: template.contact.php:223
+msgid   "Send copy of the message to yourself"
+msgstr  ""
+
+#: template.contact.php:263
+msgid   "Send message"
+msgstr  ""
+
+#: gavern/widgets.weather.php:397
+msgid   "Sep"
+msgstr  ""
+
+#: gavern/options.template.php:173
+msgid   "Settings saved"
+msgstr  ""
+
+#: gavern/widgets.weather.php:174
+msgid   "Severe Thunderstorms"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:511
+msgid   "Shop"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:172
+msgid   "Show \"send copy\":"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:129
+msgid   "Show author:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:136
+msgid   "Show category:"
+msgstr  ""
+
+#: gavern/widgets.weather.php:628
+msgid   "Show city name:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:150
+msgid   "Show comments:"
+msgstr  ""
+
+#: gavern/widgets.weather.php:680
+msgid   "Show current conditions:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:122
+msgid   "Show date:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:165
+msgid   "Show e-mail field:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:107
+msgid   "Show featured image:"
+msgstr  ""
+
+#: gavern/widgets.weather.php:693
+msgid   "Show forecast:"
+msgstr  ""
+
+#: gavern/widgets.weather.php:641
+msgid   "Show humidity:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:158
+msgid   "Show name field:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:115
+msgid   "Show sidebar information:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:143
+msgid   "Show tags:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:99
+msgid   "Show title:"
+msgstr  ""
+
+#: gavern/widgets.weather.php:654
+msgid   "Show wind:"
+msgstr  ""
+
+#: gavern/widgets.weather.php:182
+msgid   "Showers"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:178
+msgid   "Sidebar % width"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:129
+msgid   "Sidebar disabled"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:127
+msgid   "Sidebar on the left"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:128
+msgid   "Sidebar on the right"
+msgstr  ""
+
+#: template.login.php:173
+msgid   "Sign into your account right now."
+msgstr  ""
+
+#: gavern/widgets.weather.php:188
+msgid   "Sleet"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:116
+msgid   "Slow animation (1000ms)"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:158
+msgid   "Small tablet width"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:674
+msgid   "Smartphones"
+msgstr  ""
+
+#: gavern/widgets.weather.php:192
+msgid   "Smoky"
+msgstr  ""
+
+#: gavern/widgets.weather.php:186
+msgid   "Snow"
+msgstr  ""
+
+#: gavern/widgets.weather.php:183
+msgid   "Snow Flurries"
+msgstr  ""
+
+#: gavern/widgets.weather.php:211
+msgid   "Snow Showers"
+msgstr  ""
+
+#: gavern/widgets.weather.php:224
+msgid   "Snow Showers Late"
+msgstr  ""
+
+#: template.contact.php:191
+msgid   "Sorry, an error occured."
+msgstr  ""
+
+#: search.php:56 search.php:68
+msgid   "Sorry, but nothing matched your search criteria. Please try again "
+        "with some different keywords."
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:57
+msgid   "Standard fonts"
+msgstr  ""
+
+#: gavern/widgets.weather.php:200
+msgid   "Sunny"
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:148
+msgid   "Tablet width"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:675
+msgid   "Tablet/Smartphones"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:673
+msgid   "Tablets"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:502
+msgid   "Tag"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:517
+msgid   "Tag ID/Name:"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:454
+msgid   "Tag: "
+msgstr  ""
+
+#: layouts/content.post.footer.php:47
+msgid   "Tagged under"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:506
+msgid   "Taxonomy"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:521
+msgid   "Taxonomy term:"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:520
+msgid   "Taxonomy:"
+msgstr  ""
+
+#: gavern/widgets.weather.php:667
+msgid   "Temperature unit:"
+msgstr  ""
+
+#: gavern/functions.php:54
+msgid   "Template options"
+msgstr  ""
+
+#: gavern/layouts/updates.php:21
+msgid   "Template version: "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:519
+msgid   "Template:"
+msgstr  ""
+
+#: template.contact.php:95
+msgid   "The reCAPTCHA wasn't entered correctly. Go back and try it again."
+msgstr  ""
+
+#: gavern/helpers/helpers.customizer.php:138
+msgid   "Theme width"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:1067
+msgid   "This feature requires inline frames. You have iframes disabled or "
+        "your browser does not support them."
+msgstr  ""
+
+#: comments.php:13
+msgid   "This post is password protected. Enter the password to view any "
+        "comments."
+msgstr  ""
+
+#: gavern/widgets.weather.php:217
+msgid   "Thunder"
+msgstr  ""
+
+#: gavern/widgets.weather.php:210
+msgid   "Thundershowers"
+msgstr  ""
+
+#: gavern/widgets.weather.php:175
+msgid   "Thunderstorms"
+msgstr  ""
+
+#: gavern/widgets.weather.php:596
+msgid   "Time offset:"
+msgstr  ""
+
+#: gavern/widgets.comments.php:196 gavern/widgets.weather.php:581
+msgid   "Title:"
+msgstr  ""
+
+#: gavern/widgets.weather.php:171
+msgid   "Tornado"
+msgstr  ""
+
+#: gavern/widgets.weather.php:172
+msgid   "Tropical storm"
+msgstr  ""
+
+#: 404.php:39
+msgid   "Try looking in the monthly archives."
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:442
+msgid   "Tweet"
+msgstr  ""
+
+#: gavern/layouts/updates.php:17 gavern/functions.php:83
+msgid   "Updates"
+msgstr  ""
+
+#: gavern/form_elements/standard.php:273
+msgid   "Upload Image"
+msgstr  ""
+
+#: gavern/widgets.comments.php:23
+msgid   "Use this widget to show recent comments with avatars"
+msgstr  ""
+
+#: gavern/widgets.weather.php:31
+msgid   "Use this widget to show weather forecast"
+msgstr  ""
+
+#: template.login.php:45 template.login.php:198
+#: gavern/helpers/helpers.features.php:1009
+#: gavern/helpers/helpers.features.php:1011
+msgid   "Username"
+msgstr  ""
+
+#: gavern/layouts/template.php:28
+msgid   "Version: "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:275
+msgid   "Video Embed Code"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:256
+#, php-format
+msgid   "View all posts by %s"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:487
+msgid   "Visible at: "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:693
+msgid   "Visible for: "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:678
+msgid   "Visible on: "
+msgstr  ""
+
+#: gavern/widgets.weather.php:591
+msgid   "WOEID:"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:540
+msgid   "Website: "
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:664
+msgid   "Widget style: "
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:99
+msgid   "Width and Opacity"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:98
+msgid   "Width, Height and Opacity"
+msgstr  ""
+
+#: gavern/widgets.weather.php:335
+msgid   "Wind"
+msgstr  ""
+
+#: gavern/widgets.weather.php:194
+msgid   "Windy"
+msgstr  ""
+
+#: gavern/widgets.comments.php:206
+msgid   "Word count:"
+msgstr  ""
+
+#: gavern/filters.php:322
+msgid   "WordPress &rsaquo; Error"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:255
+msgid   "Written by "
+msgstr  ""
+
+#: template.login.php:108 layouts/header.php:41
+msgid   "You are using an unsupported version of Internet Explorer. Please"
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:53
+msgid   "You can enable or disable showing the menu in the template."
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:67
+msgid   "You can enable showing the menu in the specific pages."
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:94
+msgid   "You can specify the menu animation."
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:76
+msgid   "You can specify the menu depth."
+msgstr  ""
+
+#: gavern/form_elements/Menu/menu.php:110
+msgid   "You can specify the speed of the menu animation."
+msgstr  ""
+
+#: gavern/options.importexport.php:24 gavern/options.template.php:20
+#: gavern/options.template.php:177 gavern/options.updates.php:17
+msgid   "You don't have sufficient permissions to access this page!"
+msgstr  ""
+
+#: gavern/form_elements/Fonts/fonts.php:112
+msgid   "You have no fonts in fonts/ directory"
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.fragments.php:92
+msgid   "Your comment is awaiting moderation."
+msgstr  ""
+
+#: template.contact.php:186
+msgid   "Your message was sent to us successfully."
+msgstr  ""
+
+#: template.login.php:110 layouts/header.php:43
+msgid   "for the best user experience on our site. Thank you."
+msgstr  ""
+
+#: gavern/helpers/helpers.layout.php:1065
+msgid   "of"
+msgstr  ""
+
+#: template.login.php:222
+msgid   "or"
+msgstr  ""
+
+#: template.contact.php:76
+msgid   "please enter a text of the message."
+msgstr  ""
+
+#: template.contact.php:68
+msgid   "please enter correct email address."
+msgstr  ""
+
+#: template.contact.php:59
+msgid   "please enter your name"
+msgstr  ""
+
+#: template.login.php:109 layouts/header.php:42
+msgid   "upgrade your browser"
+msgstr  ""

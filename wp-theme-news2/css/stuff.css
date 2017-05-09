@@ -1,0 +1,958 @@
+/**
+ *
+ * -------------------------------------------
+ * Template stuff CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 7. Template additional features styles
+ *
+ *
+------------------------------------ */
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "news2-icons";
+  src:url("../fonts/news2-pixellove/news2-pixellove.eot");
+  src:url("../fonts/news2-pixellove/news2-pixellove.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/news2-pixellove/news2-pixellove.woff") format("woff"),
+    url("../fonts/news2-pixellove/news2-pixellove.ttf") format("truetype"),
+    url("../fonts/news2-pixellove/news2-pixellove.svg#news2-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "news2-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="gk-icon-"]:before,
+[class*=" gk-icon-"]:before {
+  font-family: "news2-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gk-icon-chat:before {
+  content: "a";
+}
+.gk-icon-fb:before {
+  content: "b";
+}
+.gk-icon-gplus:before {
+  content: "c";
+}
+.gk-icon-news:before {
+  content: "d";
+}
+.gk-icon-next:before {
+  content: "e";
+}
+.gk-icon-prev:before {
+  content: "f";
+}
+.gk-icon-rss:before {
+  content: "g";
+}
+.gk-icon-search:before {
+  content: "h";
+}
+.gk-icon-twitter:before {
+  content: "i";
+} 
+.gk-icon-email:before {
+   content: "j"; 
+}
+.gk-icon-print:before {
+   content: "k"; 
+} 
+.gk-icon-tags:before {
+   content: "l"; 
+} 
+.gk-icon-views:before {
+   content: "m"; 
+}
+
+/* 7.1. Breadcrumbs & font-size
+==================================== */
+ 
+#gk-breadcrumb-area {
+	border-bottom: 1px solid #E5E5E5;
+	border-top: 1px solid #E5E5E5;
+	padding: 19px 32px 20px;
+}
+
+#gk-breadcrumb-area:first-child {
+	border-top: 0;
+}
+ 
+.gk-breadcrumbs {
+	color: #999;
+	float: left;
+	line-height: 1;
+} 
+
+.gk-breadcrumbs > a:first-child:before {
+	display: none;
+}
+
+.gk-breadcrumbs > a,
+.gk-breadcrumbs > span {
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 1;
+	padding: 0 13px;
+	position: relative;
+}
+
+.gk-breadcrumbs > a:first-child {
+	padding-left: 0;
+}
+
+.gk-breadcrumbs > a:before,
+.gk-breadcrumbs > span:before {
+	color: #eb1e00;
+	content: "\f111";
+	font-family: FontAwesome;
+	font-size: 4px;
+	font-weight: normal;
+	left: -11px;
+	padding: 0 8px;
+	position: absolute;
+	top: 6px;	
+}
+
+.gk-breadcrumbs > span {
+	color: #999;
+}
+
+#gk-font-size {
+	float: right;
+}
+
+#gk-font-size > a {
+	margin-left: 5px;
+}
+ 
+/* 7.2. Contact page template
+==================================== */
+.contactpage .featured-image {
+	margin-bottom: 24px;
+	padding-top: 0;
+}
+
+.contactpage .featured-image:hover img {
+	-webkit-transform: scale(1.0);
+	-moz-transform: scale(1.0);
+	-ms-transform: scale(1.0);
+	-o-transform: scale(1.0);
+	transform: scale(1.0);
+	opacity: 1;
+}
+
+.contactpage .page-title {
+	font-size: 42px;
+	font-weight: 300;
+	text-align: left;
+}
+
+.contactpage h3 {
+	clear: both;
+	font-size: 24px;
+	font-weight: 300;
+	padding: 50px 0 13px;
+}
+
+.contactpage address,
+.contactpage .contact-info {
+	float: left;
+	margin: 0 92px 32px 0
+}
+
+.contactpage .contact-text {
+	color: #000;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.contactpage section.intro {
+	font-size: 100%;
+}
+
+.contactpage .contact-info div {
+	float: left;
+		margin: 0 52px 0 0
+}
+
+.page-template-template-contact-php #gk-mainbody-bottom .box {
+	border-top: 1px solid #E5E5E5;
+	font-size: 14px;
+	margin: 42px 0 0;
+	padding: 24px 0 0;
+}
+
+#gk-contact {
+	margin: 0;
+	max-width: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+
+#gk-contact dd {
+	margin: 5px 0;
+	padding: 0;
+}
+
+#gk-contact span.error {
+	color: #d82731;
+}
+
+.contactpage .gk-contact-error,
+.contactpage .gk-contact-thanks {
+	line-height: 18px;
+	margin: 30px 0;
+	max-width: 520px;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.contactpage .gk-contact-error:before {
+	top: 10px;
+}
+
+.contactpage input[type="text"],
+.contactpage textarea {
+	width: 100%;
+}
+
+#gk-contact input[type="text"] {
+	width: 80%;
+}
+
+.contactpage input[type="submit"] {
+	float: right;
+	margin: 0;
+}
+
+.contactpage #loginform #rememberme {
+	margin: 13px 5px 0 2px;
+}
+
+#gk-contact dl {
+	float: left;
+	width: 50%;
+}
+
+#gk-contact > p {
+	margin-bottom: 10px;
+}
+
+#gk-contact label {
+	text-transform: none;
+}
+
+#gk-contact .inline,
+#gk-contact .inline {
+	display: inline-block;
+	float: left;
+	margin: 12px 0 0;
+	width: auto;
+}
+
+input[name="send_copy"] {
+	margin-left: 10px;
+}
+
+/* 7.3. Page 404 template 
+==================================== */ 
+
+.page404 > p:first-child {
+	font-size: 150%;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.page404 > p:first-child > small {
+	display: block;
+	font-size: 85%;
+	text-align: center;
+}
+
+.page404 label[for="s"] {
+	display: none;
+}
+
+.page404 form {
+	margin: 10px 0 30px 0;
+	text-align: center;
+}
+
+.page404 > div {
+	clear: both;
+	overflow: hidden;
+}
+
+.page404 .widget {
+	float: left;
+	margin: 0 2%;
+	margin-bottom: 30px;
+	width: 46%;
+}
+
+.page404 #searchsubmit {
+	display: inline-block;
+	float: none!important;
+	vertical-align: middle;
+}
+
+.page404 ul li {
+	border-top: 1px solid #e5e5e5;
+	line-height: 1.6;
+	padding: 7px 0;
+}
+
+.page404 ul li:first-child {
+	border: 0;
+}
+
+.page404 .widgettitle {
+	margin:  30px 0;
+}
+/* 7.4. Archive page template
+==================================== */
+
+.archivepage .widget h2 {
+	font-size: 24px;
+	margin-bottom: 30px;
+	text-transform: none;
+}
+
+.archivepage .widget {
+    float: left;
+    margin: 0 2%;
+    padding: 0;
+    width: 27%;
+}
+
+.archivepage .widget.first {
+    margin-left: 0;
+    width: 37%;
+}
+
+.archivepage .widget.last {
+    margin-right: 0;
+    width: 27%;
+}
+
+.archivepage .widget li:before {
+    display: none;
+}
+
+.archivepage .widget.first li {
+    position: relative;
+}
+
+.archivepage .widget.first li a {
+    display: inline-block;
+    padding-left: 65px;
+}
+
+.archivepage .widget li small {
+    color: #777;
+    font-size: 11px;
+    left: 0;
+    position: absolute;
+    top: 12px;
+}
+
+.archivepage .widget li a {
+	line-height: 1.4;
+}
+
+/* 7.5. Tag cloud template
+==================================== */
+
+.tagcloud .tag-cloud {
+	border-top: 1px solid #e5e5e5;
+	margin: 20px 0;
+	padding: 10px 0;
+}
+
+.tagcloud .tag-cloud a {
+	font-weight: 400;
+	padding: 0 10px;
+	vertical-align: middle;
+}
+
+/* 7.6. Login page template
+==================================== */
+.page-template-template-login-php .page-title {
+	margin-bottom: 40px;
+}
+
+.loginpage #loginform {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 240px;
+}
+
+.loginpage #loginform p {
+    margin: 15px 0;
+}
+
+.loginpage p.login-submit {
+	margin-top: 0;
+}
+
+.loginpage input[type="text"],
+.loginpage input[type="password"],
+.loginpage .login-submit input[type="submit"] {
+	margin: 0 0 10px 0;
+	width: 100%;
+}
+
+.loginpage input[type="text"],
+.loginpage input[type="password"] {
+	font-size: 12px;
+}
+
+.loginpage p label {
+	display: block;
+}
+
+.loginpage .login-remember {
+	float: left;
+	margin-top: 8px!important;
+}
+
+.loginpage nav.small {
+	clear: both;
+	float: right;
+	margin: 0 auto;
+	padding: 20px 0 15px;
+}
+
+.loginpage nav.small ul {
+	margin: 0;
+}
+
+.loginpage nav.small ul li {
+	float: left;
+	font-size: 14px;
+	font-weight: 300;
+	margin-right: 0;
+	padding-left: 0;
+}
+
+.loginpage nav.small ul li:before {
+	display: none;
+}
+
+.loginpage nav.small a {
+	color: #999;
+}
+
+.loginpage nav.small a:active,
+.loginpage nav.small a:focus,
+.loginpage nav.small a:hover {
+	color: #eb1e00;
+}
+
+
+/* not register style */
+body.loginpage {
+	background: #F6F7F9;
+	color: #777;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100%;
+	padding: 0;
+	word-wrap: break-word;
+}
+#gk-page-wrap {
+	background: #fff;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+	-ms-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 52px auto;
+	max-width: 95%;
+	overflow: hidden;
+	padding: 32px 52px;
+	width: 924px;
+}
+
+.loginpage .page-title {
+	color: #222;
+	font-size: 21px;
+	font-weight: 600;
+	letter-spacing: -0.5px;
+	margin: -3px 0 45px;
+	padding-bottom: 15px;
+	text-transform: none;
+}
+
+.loginpage .left {
+	float: left;
+	width: 45%;
+}
+
+.loginpage .left + .right {
+	border-left: 1px solid #e5e5e5;
+	float: right;
+	padding: 0 0 0 5%;
+	width: 45%;
+}
+
+.loginpage h2 {
+	color: #222;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.loginpage p {
+	margin: 5px 0 28px;
+}
+
+.loginpage .register {
+	border: 1px solid #ddd;
+	display: inline-block;
+	font-size: 12px;
+	height: 38px;
+	line-height: 39px;
+	padding: 0 14px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.loginpage .gk-cancel {
+	border-top: 1px solid #E5E5E5;
+	margin-top: 32px;
+	text-align: center;
+}
+
+.loginpage .gk-cancel span {
+	background: #fff;
+	display: inline-block;
+	padding: 0 12px;
+	position: relative;
+	top: -12px;
+}
+
+.loginpage #gk-login-wrap {
+	overflow: hidden;
+	padding: 0 0 32px;
+}
+
+/* 7.7. Post formats header
+==================================== */
+
+header hgroup h2 {
+	margin: 0;
+	padding: 11px 0 10px 0;
+}
+
+.gk-format-aside,
+.gk-format-audio,
+.gk-format-chat,
+.gk-format-gallery,
+.gk-format-image,
+.gk-format-link,
+.gk-format-quote,
+.gk-format-status,
+.gk-format-video {
+	display: inline-block;
+	float: none;
+	height: 25px;
+	margin: 0 0 -6px 0!important;
+	overflow: hidden;
+	padding-right: 0!important;
+	width: 26px;
+}
+
+.gk-format-aside:before,
+.gk-format-audio:before,
+.gk-format-chat:before,
+.gk-format-gallery:before,
+.gk-format-image:before,
+.gk-format-link:before,
+.gk-format-quote:before,
+.gk-format-status:before,
+.gk-format-video:before {
+	color: #eb1e00;
+	display: block;
+	font-family: FontAwesome;
+	font-size: 15px;
+	line-height: 2;
+}
+
+.gk-format-aside:before { 
+	content: "\f0f6";
+}
+
+.gk-format-audio:before { 
+	content: "\f001";
+}
+
+.gk-format-chat:before { 
+	content: "\f086";
+}
+
+.gk-format-gallery:before { 
+	content: "\f00a";
+}
+
+.gk-format-image:before { 
+	content: "\f03e";
+}
+
+.gk-format-link:before { 
+	content: "\f0c1";
+}
+
+.gk-format-quote:before { 
+	content: "\f10e";
+}
+
+.gk-format-status:before { 
+	content: "\f073";
+}
+
+.gk-format-video:before { 
+	content: "\f03d";
+}
+
+/* 7.8. Page navigation
+==================================== */
+
+.pagenav {
+	border-top: 1px solid #e5e5e5;
+	clear: both;
+	margin: 32px -32px 0 -32px;
+	padding-top: 32px;
+	overflow: hidden;
+}
+
+#gk-mainbody article + .pagenav {
+	margin-left: 20px;
+}
+
+.pagenav .nav-prev {
+	float: left;
+	margin-left: 32px;
+}
+
+.pagenav .nav-next {
+	float: right;
+	margin-right: 32px;
+}
+
+/* 7.9. Author info
+==================================== */
+
+.author-info {
+	background: #F6F7F9;
+	border: 0;
+	border-bottom: 1px solid #e5e5e5;
+	clear: both;
+	margin: 0;
+	min-height: 48px;
+	overflow: hidden;
+	padding: 24px;
+	position: relative;
+}
+
+#gk-social-api + .author-info {
+	margin-top: 57px;
+}
+
+.author-info > aside {
+	left: 32px;
+	position: absolute;
+	top: 24px;
+}
+
+.author-info img {
+	display: block;
+}
+
+.author-info > div {
+	margin: 6px 24px 0 138px;
+}
+
+.author-info h2 {
+	color: #333;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 0 0 12px 0;
+	text-transform: uppercase;
+}
+
+.author-info h2 a {
+	color: #111!important;
+}
+
+.author-info .author-desc p {
+	margin-bottom: 0;
+	margin-top: 2px;
+}
+
+.author-info p.author-www {
+	margin-top: 3px;
+}
+
+/* 7.10. Post custom fields
+==================================== */
+
+dl.post-fields {
+	border-top: 1px solid #e5e5e5;
+	clear: both;
+	font-size: 13px;
+	line-height: 2.0;
+	margin: 52px 0 5px 0;
+	padding: 0;
+	padding-top: 17px;
+}
+
+dl.post-fields dt {
+	font-weight: bold;
+	float: left;
+	margin-right: 10px;
+	padding: 0;
+}
+
+dl.post-fields dt:first-child {
+	border-top: none;
+} 
+
+dl.post-fields dd {
+	margin: 0;
+}
+
+/* 7.11. oEmbed support
+==================================== */
+
+/* YouTube, Vimeo - responsive support */
+article iframe[src^='http://www.youtube.com'],
+article iframe[src^='https://www.youtube.com'],
+article iframe[src^='http://youtube.com'],
+article iframe[src^='https://youtube.com'],
+article iframe[src*='vimeo.com'],
+article iframe[src*='www.youtube.com'] {
+	max-width: 100%!important;
+}
+
+/* Twitter - responsive support */
+.content .twitter-tweet-rendered {
+	max-width: 100%!important;
+}
+
+/* Flickr - responsive support */
+.content a[href^='http://www.flickr.com'],
+.content a[href^='https://www.flickr.com'],
+.content a[href^='http://flickr.com'],
+.content a[href^='https://flickr.com'] {
+	max-width: 100%!important;
+}
+
+/* 7.12. Attachment page
+==================================== */
+
+.attachment-page .intro p {
+	clear: both;
+	padding: 30px 0 0 0;
+}
+
+.attachment-page .nav-prev {
+	float: left;
+}
+
+.attachment-page .nav-next {
+	float: right;
+}
+
+.attachment-page .intro {
+	overflow: hidden;
+	padding: 0 0 30px 0;
+}
+
+.attachment-page .gk-meta-post {
+	margin: 0;
+}
+
+/* 7.13. Search page
+==================================== */
+
+.search-page #searchform,
+.category-page #searchform {
+	margin-bottom: 32px;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.search-page #searchform input[type="submit"],
+.category-page #searchform input[type="submit"] {
+	display: inline-block;
+	float: none;
+	line-height: 41px;
+}
+
+.search-page .page-title {
+	font-size: 32px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.search-page .intro p {
+	text-align: center;
+}
+
+.search-page #searchform #s,
+.category-page #searchform #s {
+	margin: 0 12px;
+}
+/* 7.14. Thickbox styling
+==================================== */
+
+body #TB_load,
+body #TB_window {
+	border: none!important;
+	background: transparent!important;
+}
+
+body #TB_window {
+	background: #000!important;
+	padding: 20px 30px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+body #TB_title {
+	display: none;
+}
+
+/* 7.15. Demo content
+==================================== */
+
+
+/* 
+ * Special Typography elements 
+ */
+ 
+/* Social icons */
+.gk-social {
+	padding: 3px 0;
+	text-align: center;
+}
+.gk-social a {
+	color: #555;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 25px;
+	margin: 0 20px;
+}
+.gk-social a:active,
+.gk-social a:focus,
+.gk-social a:hover {
+	color: #111;
+}
+.gk-social a:before {
+	font-family: FontAwesome;
+	font-size: 20px;
+	line-height: 25px;
+	margin: 0 12px 0 0;
+	position: relative;
+	top: 3px;
+}
+.gk-social a.gk-twitter:before {
+	color: #63cdf1;
+	content: "\f099";
+}
+.gk-social a.gk-facebook:before {
+	color: #507cbe;
+	content: "\f082";
+}
+.gk-social a.gk-youtube:before {
+	color: #fe0000;
+	content: "\f167";
+}
+.gk-social a.gk-gplus:before {
+	color: #f16261;
+	content: "\f0d4";
+}
+
+/* 7.16. Tables
+==================================== */
+
+article section table {
+	margin: 10px 0;
+}
+
+article section table th {
+	background: #eee;
+	padding: 0 4px;
+	text-align: left;
+}
+
+article section table td {
+	padding: 0 4px;
+}
+
+article section table tbody tr:nth-child(2n) {
+	background: #f5f5f5;
+}
+
+article section table td span.gk-table-label {
+	display: none;
+}
+
+/* 7.17. Other
+==================================== */
+/* Grid 2x2 for banners */
+.gk-grid2x2 {
+	margin: -3px;
+}
+.gk-grid2x2 > a {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	padding: 3px;
+	width: 50%;
+}
+.gk-grid2x2 > a > img {
+	display: block;
+	height: auto;	
+	max-width: 100%
+}
+

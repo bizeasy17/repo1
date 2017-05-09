@@ -1,0 +1,29 @@
+/* GK Image Show */
+.gk-is {
+	text-align: right;
+}
+
+.gk-is input.short {
+	width: 38px;
+}
+
+.gk-is input[type="text"] {
+	width: 70px;
+}
+
+.gk-is input.widefat {
+	width: 100%;
+}
+
+.gk-is label {
+    float:left;
+	display: inline-block;
+	padding-top: 4px;
+}
+
+hr.clear {
+	border: none;
+	border-top: 3px solid #ddd;
+	clear: both;
+	display: block;
+}

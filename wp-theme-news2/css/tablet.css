@@ -1,0 +1,415 @@
+/**
+ *
+ * -------------------------------------------
+ * Tablet CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 11. Tablet code
+ *
+ *
+------------------------------------ */
+ 
+/* 11.1. Base elements
+==================================== */ 
+
+body,
+.box {
+	font-size: 14px;
+}
+
+.box {
+	padding: 12px;
+}
+
+small {
+	font-size: 90%;
+}
+
+.gk-page {
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+}
+
+/* sidebar */
+#gk-mainbody-columns,
+#gk-sidebar-right {
+	display: block;
+	overflow: hidden;
+	width: 100%!important;
+}
+
+#gk-sidebar-right {
+	border-left: none;
+	border-top: 1px solid #e5e5e5;
+}
+
+#gk-sidebar-right .box {
+	border-top: none;
+	float: left;
+	padding: 12px;
+	width: 50%;
+}
+
+#gk-sidebar-right .gk-tabs-wrap .box.gk_nsp {
+	width: 100%;
+}
+
+#gk-sidebar-right .box:nth-child(2n+1) {
+	clear: both;
+}
+
+/* Archive page */
+.archivepage .widget.first {
+	margin-right: 2%;
+	margin-left: 0!important;
+}
+
+.archivepage .widget.first,
+.archivepage .widget.first + .widget {
+	margin-right: 0;
+	margin-left: 2%;
+	width: 48%;
+}
+
+.archivepage .widget.last {
+	margin: 0;
+	width: 100%;
+}
+
+.archivepage .widget ul {
+	margin-bottom: 30px;
+}
+
+/* images fix */
+#gk-mainbody img {
+	height: auto!important;
+	max-width: 100%!important;
+}
+
+/* column rules */
+#gk-sidebar .box,
+#gk-sidebar_wc .box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	margin-top: 0!important;
+	margin-bottom: 30px!important;
+	padding: 10px!important;
+	width: 50%;
+}
+#gk-sidebar {
+	padding: 0!important;
+}
+#gk-sidebar .box:first-child,
+#gk-sidebar_wc .box:first-child {
+	padding-top: 10px!important;
+}
+#gk-sidebar .box:nth-child(2n+1),
+#gk-sidebar_wc .box:nth-child(2n+1) {
+	clear: both!important;
+}
+.widget-area .col1 { width: 100%; }
+.widget-area .col2 { width: 50%; }
+.widget-area .col3 { width: 33.3%; }
+.widget-area .col4 { width: 50%; }
+.widget-area .col5 { width: 33.3%; }
+.widget-area .col6 { width: 33.3%; }
+
+.widget-area .box.last1 { width: 100%; }
+.widget-area .box.last2 { width: 50%; }
+.widget-area .box.last3 { width: 33.3%; }
+.widget-area .box.last4 { width: 50%; }
+.widget-area .box.last5 { width: 33.3%; }
+
+.widget-area .nth1 {
+	clear: both;
+}
+
+.widget-area .col6.last5.nth4,
+.widget-area .col6.last5.nth5 {
+	width: 50%;
+}
+
+.gk-columns[data-column-count="4"] > div,
+.gk-columns[data-column-count="5"] > div {
+	margin-bottom: 30px;
+	width: 50%!important; 
+}
+
+.gk-columns[data-column-count="4"] > div:nth-child(2n+1),
+.gk-columns[data-column-count="5"] > div:nth-child(2n+1) {
+	clear: both;
+}
+
+.widget-area .box.double.last2 {
+	width: 60%;
+}
+
+.widget-area .box.double.last2 ~ .box.last2 {
+	width: 40%;
+}
+
+/* 11.2. Header elements
+==================================== */
+#gk-banner-top {
+	max-width: 75%;
+}
+#gk-banner-top a, 
+#gk-banner-top img {
+	display: block;
+	max-width: 100%;
+}
+
+#gk-banner-left .box {
+	padding: 32px 24px!important;
+}
+
+#gk-banner-right .box {
+	padding: 12px;
+}
+
+#gk-toolbar {
+	position: relative;
+}
+#gk-updates {
+	position: absolute;
+	text-align: center;
+	top: -55px;
+	width: 33.333333%!important;
+}
+#gk-search {
+	border-left: none;
+	border-right: 1px solid #e5e5e5;
+	left: 33.333333%;
+	position: absolute;
+	top: -55px;
+	width: 25%!important;
+}
+#gk-highlights {
+	width: 100%!important;
+}
+
+
+/* 11.3. Demo and other elements
+==================================== */
+.box.banner-center {
+	padding: 10px 0!important;
+}
+.box.banner-center img {
+	height: auto;
+	width: 100%;
+}
+
+.gk-nsp.highlights .gk-nsp-arts-nav {
+	margin: 0 -24px;
+}
+
+#gk-footer .gk-copyrights {
+	width: 75%;
+}
+
+#form-wysija-2 > p {
+	width: 86%;
+}
+
+#gk-footer-area > div {
+	width: 80%;
+}
+
+.gk-banner > a > img {
+	width: 100%;
+}
+
+.gk-nsp-highlighter > .gk-nsp-highligher-items-wrap {
+	padding-left: 25px;
+}
+
+/* Tabs */
+.gk-tabs-wrap > ol {
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+
+/* Contact Form */
+#gk-contact input[type="text"] {
+	width: 95%;
+}
+
+/* NSP */
+.gk-nsp-link-header {
+	font-size: 12px;
+}
+
+.gk-nsp-links-nav {
+	margin-top: 10px;
+}
+
+.gk-nsp-arts-nav {
+	top: -33px;
+}
+
+/* Weather */
+.gkw-main {
+	padding: 10px 0;
+}
+.gkw-main .gkw-current {
+	width: 45%;
+}
+.gkw-temp {
+	font-size: 16px;
+	line-height: 48px;
+}
+.gkw-main-right h2 {
+	font-size: 14px;
+	margin: -5px 0 4px 0;
+}
+ul.gkw-next-days {
+	width: 55%;
+}
+.gkw-main-left {
+	width: 45%;
+}
+.gkw-main-right {
+	width: 55%;
+}
+.gkw-main-left > *:first-child {
+	font-size: 48px!important;
+}
+ul.gkw-next-dayss li i {
+	font-size: 28px!important;
+}
+.gkw-day {
+	font-size: 11px;
+}
+span.gkw-day-day, 
+span.gkw-day-night {
+	font-size: 11px;
+	padding: 0 4px 0 0;
+}
+.gkw-main-left > i,
+.gkw-main-left > i:before {
+	margin: -9px 0 0 0;
+}
+
+
+/* 11.4. Main menu elements
+==================================== */ 
+
+#main-menu,
+#gk-main-menu,
+#gk-main-menu.gk-menu-overlay {
+	display: none;
+}
+
+#main-menu-mobile {
+	color: #222;
+	display: block!important;
+	float: right;
+	font-size: 24px;
+	height: 44px;
+	line-height: 44px;
+	margin: 6px 7px 0 8px!important;
+	overflow: hidden;
+	padding: 0 10px;
+	position: relative;
+	width: 19px;
+}
+
+#main-menu-mobile i {
+	margin-right: -14px;
+}
+
+#main-menu-mobile > select {
+	border: none;	
+	display: block;
+	width: 44px!important;
+	height: 44px!important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	padding: 6px!important;
+	position: absolute!important;
+	right: 4px;
+	font-size: 14px;
+	top: 0;
+}
+
+body[data-mobile="true"] #main-menu-mobile > select {
+	font-size: 50px;
+}
+
+/* 11.5. Footer
+==================================== */ 
+#gk-footer .gk-copyrights {
+	margin: 20px auto;
+}
+
+
+/* 11.6. Device classes
+==================================== */
+
+.onlyDesktop {
+	display: none!important;
+}
+
+.onlyTablets {
+	display: block!important;
+}
+
+.onlySmartphones {
+	display: none!important;
+}
+
+.onlyTabltetsAndSmartphones {
+	display: block!important;
+}
+
+/* 11.7. Responsive tables
+==================================== */
+
+@media (max-width: 600px) {
+	article section table {
+		border: 1px solid #eee;
+		border-bottom: none;
+		max-width: 100%!important;
+		width: 100%!important;
+	}
+	
+	article section table thead {
+		display: none;
+	}
+	
+	article section table td {
+		border-top: 1px solid #eee;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		clear: both;
+		display: block;
+		float: right;
+		padding: 5px 0 5px 50%;
+		position: relative;
+		width: 100%;
+	}
+	
+	article section table td:first-child {
+		border-top: none;
+	}
+	
+	article section table tbody tr {
+		border-bottom: 2px solid #eee;
+	}
+	
+	article section table td span.gk-table-label {
+		display: block;
+		font-size: 95%;
+		font-weight: 500;
+		left: 5px;
+		position: absolute;
+	}
+}

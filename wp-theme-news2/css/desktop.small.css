@@ -1,0 +1,140 @@
+/**
+ *
+ * -------------------------------------------
+ * Small Desktop CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 10. Small Desktop code
+ *
+ *
+------------------------------------ */
+ 
+/* 10.1. Base elements
+==================================== */ 
+
+.gk-page {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+}
+
+#gk-menu-overlay-wrap {
+	margin: 0 0 0 -360px!important;
+	max-width: 720px!important;
+}
+
+ul.gkw-next-days li {
+	padding: 0 10px 0 15px!important;
+}
+
+#main-menu > li > a {
+	padding: 0 20px;
+}
+
+#gk-login {
+	padding: 0 30px;
+}
+
+#gk-updates {
+	font-size: 11px;
+	padding-left: 14px;
+}
+
+.gk-nsp-highlighter > strong {
+	padding: 0 0 0 20px;
+}
+
+#gk-banner-left .box {
+	padding: 42px 32px!important;
+}
+
+.gk-nsp.highlights .gk-nsp-arts-nav {
+	margin: 0 -32px;
+}
+
+@media (max-width: 1280px) {
+	.box {
+		padding: 24px;
+	}
+	.box .box-title {
+		margin: 0 0 10px 0;
+	}
+	#main-menu > li {
+		font-size: 13px;
+	}
+	#main-menu > li > a {
+		padding: 0 10px;
+	}
+	#gk-login {
+		padding: 0 20px;
+	}
+	#gk-footer-area {
+		padding: 10px;
+	}
+	#footer-menu {
+		width: 100%;
+	}
+	ul.gkw-next-days li {
+		padding: 0 8px!important;
+	}
+	.gkw-main-left {
+		padding: 0 14px 0 0px;
+	}
+	.gkw-temp {
+		font-size: 20px;
+		line-height: 44px;
+	}
+	#gk-mainbody .box,
+	#gk-mainbody .box.right.gk_nsp {
+		margin-bottom: 10px;
+	}
+	.gk-nsp.left .gk-nsp-links {
+		padding-right: 32px;
+	}
+	.gk-nsp.right .gk-nsp-links {
+		padding-left: 32px;
+	}
+	.gk-nsp-image-wrap + .gk-nsp-link-content-wrap > h4 {
+		margin-top: -2px;
+	}
+	.gk-nsp-link-header {
+		font-size: 13px;
+	}
+	.gk-nsp.highlights .gk-nsp-header {
+		font-size: 32px;
+	}
+	.gk-nsp-header {
+		font-size: 16px;
+	}
+	.gk-nsp-links ul li {
+		padding: 12px 0;
+	}
+	.gk-nsp.highlights .gk-nsp-text {
+		font-size: 16px;
+	}
+	.gk-nsp.highlights .gk-nsp-info {
+		padding: 10px 0 24px 0;
+	}
+	#gk-mainbody,
+	#gk-article-containter article,
+	#gk-category-containter article  {
+		padding: 24px;
+	}
+	.pagenav {
+		margin: 24px -24px 0 -24px;
+		padding-top: 24px;
+	}
+	#gk-article-containter,
+	#gk-category-containter  {
+		margin: -24px;
+	}
+	.gk-nsp-highlighter .gk-nsp-highlighter-ui {
+		display: none;
+	}
+}

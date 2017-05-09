@@ -1,0 +1,116 @@
+/**
+ *
+ * -------------------------------------------
+ * Stylesheet for the template.gallery.php page style
+ * -------------------------------------------
+ * 
+ **/
+ 
+.gallery-page .intro {
+	padding: 20px 0;
+}
+#gallery {
+	margin: 10px 0;
+	overflow: hidden;
+	position: relative;
+}
+#gallery figure {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+#gallery figure.active {
+	opacity: 1;
+	position: relative;
+	z-index: 3;
+}
+#gallery img {
+	display: block;
+	height: auto;
+	position: relative;
+	width: 100%;
+}
+#gallery figcaption {
+	background: rgba(0, 0, 0, 0.3);  
+	bottom: -100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 15px;
+	padding: 26px;
+	position: absolute;
+	-webkit-transition: bottom 0.5s ease-out;
+	-moz-transition: bottom 0.5s ease-out;
+	-ms-transition: bottom 0.5s ease-out;
+	-o-transition: bottom 0.5s ease-out;
+	transition: bottom 0.5s ease-out;
+	width: 100%;
+	z-index: 2;
+}
+#gallery figure.active figcaption {
+	bottom: 0;	
+	z-index: 4;
+}
+#gallery figcaption h3 {
+	color: #ddd;
+	font-weight: 300;
+	margin: 0;
+}
+#gallery figcaption p {
+	color: #fff;
+	line-height: 1.6;
+	margin: 0;
+}
+
+/* Buttons */
+.gk-is-btn-prev,
+.gk-is-btn-next {
+	cursor: pointer;
+	display: block;
+	font-size: 0;
+	height: 64px;
+	margin: -32px 0 0 0;
+	position: absolute;
+	top: 40%;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	z-index: 6;
+}
+.gk-is-btn-next {
+	right: -20px;
+}
+.gk-is-btn-prev {
+	left: -20px;
+}
+#gallery:hover .gk-is-btn-next {
+	right: 22px;
+}
+#gallery:hover .gk-is-btn-prev {
+	left: 22px;
+}
+.gk-is-btn-next:before,
+.gk-is-btn-prev:before {
+	color: #eb1e00;
+	cursor: pointer;
+	font-family: FontAwesome;
+	font-size: 48px;
+	line-height: 64px;
+}
+.gk-is-btn-prev:before {
+	content: "\f104";
+}
+.gk-is-btn-next:before {
+	content: "\f105";
+}
+.gk-is-btn-next:hover:before,
+.gk-is-btn-prev:hover:before {
+	color: #ddd;
+}

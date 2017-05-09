@@ -1,0 +1,9 @@
+<wpml-config>
+    <admin-texts>
+        <key name="news2_seo_description" />
+        <key name="news2_seo_blogname" />
+        <key name="news2_seo_homepage_desc_value" />
+        <key name="news2_seo_homepage_keywords_value" />
+        <key name="news2_template_footer_content" />
+    </admin-texts>   
+</wpml-config>

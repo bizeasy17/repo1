@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bitter-Regular'), url(http://themes.googleusercontent.com/static/fonts/bitter/v5/2PcBT6-VmYhQCus-O11S5-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+html {
+	height: 100%;
+}
+body,
+html {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+}
+body {
+	background: #fff;
+	color: #ccc;
+	font-size: 12px;
+	font-family: 'Bitter', Arial, sans-serif;
+	font-weight: 400;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100%;
+	padding: 0;
+	word-wrap: break-word;
+}	
+a {
+	color: #eb1e00;
+	-webkit-transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear;
+	-o-transition: color 0.2s linear;
+	transition: color 0.2s linear;
+	text-decoration: none;
+}
+a:active,
+a:focus,
+a:hover {
+	color: #000; 
+	text-decoration: none;
+}
+#gk-page-top {
+	text-align: center;
+	width: 100%;
+}
+#gk-page-wrap {
+	background: transparent;
+	clear: both;
+	padding: 0 0 30px 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 150px;
+	line-height: 1;
+	font-weight: 300;
+	color: #eb1e00;
+	margin: 75px 0 30px;
+	padding: 0;
+}
+a.cssLogo {
+	height: 40px;
+	margin: 45px auto 35px auto;
+	padding: 0;
+	text-indent: -999em;
+	text-shadow: none;
+	width: 124px;
+	display: block;
+}
+
+a.cssLogo {
+	background: transparent url('../images/style1/logo.png') no-repeat 0 0;
+	/* You can specify there logo size and background */
+	height: 40px;
+	width: 124px;
+}
+
+a.textLogo {
+	color: #fff!important;
+	display: block;
+	font-size: 30px;
+	line-height: 46px;
+	height: auto;
+	margin: 20px 0 0 0;
+	overflow: hidden;
+	padding: 0;
+	text-indent: 0;
+	width: auto;
+}
+
+a.textLogo small {
+	color: #fff;
+	display: block;
+	font-size: 10px;
+	line-height: 14px;
+	padding: 0;
+}
+p {
+	font-size: 32px;
+	line-height: 1.2;
+	font-family: Bitter, sans-serif;
+	font-weight: 400;
+	color: #555;
+	margin: 10px 0 24px 0;
+	padding: 0;
+}
+p.errorinfo {
+	font-size: 14px;
+	font-family: Arial;
+	line-height: 1.6;
+	margin: 0 auto;
+	padding: 9px 0;
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	p {
+		font-size: 24px;
+	}
+	h1 {
+		font-size: 95px;
+	}
+}
+
+@media (max-width: 720px) {
+	p {
+		font-size: 20px;
+	}
+	h1 {
+		font-size: 70px;
+	}
+}

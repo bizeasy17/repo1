@@ -1,0 +1,123 @@
+[
+	{
+		"groupname": "Layout Theme Settings",
+		"groupdesc": "Configure theme layout parameters.",
+		"fields": [
+			{
+				"name": "inner_inset_position",
+				"type": "Select",
+				"label": "Inset position",
+				"tooltip": "Specify the inset column position in the layout.",
+				"default": "right",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"options": {
+						"left": "Inset on the left",
+						"right": "Inset on the right",
+						"none": "Inset disabled"
+					}
+				}
+			},
+			{
+				"name": "right_banner_width",
+				"type": "Text",
+				"label": "Right banner width",
+				"tooltip": "Specify the width of the right banner area (if both banners are used)",
+				"default": "17.5"
+			},
+			{
+				"name": "sidebar_left_width",
+				"type": "Text",
+				"label": "Sidebar Left Width",
+				"tooltip": "Specify the width of the theme sidebar as a percentage",
+				"default": "30"
+			},
+			{
+				"name": "sidebar_right_width",
+				"type": "Text",
+				"label": "Sidebar Right Width",
+				"tooltip": "Specify the width of the theme inset column as a percentage",
+				"default": "27"
+			},
+			{
+				"name": "inset_width",
+				"type": "Text",
+				"label": "Inset Width",
+				"tooltip": "Specify the width of the theme article inset column as a percentage",
+				"default": "24"
+			},
+			
+			{
+				"name": "template_width",
+				"type": "Text",
+				"label": "Theme Width",
+				"tooltip": "Specify the maximum base width for the theme to be visible on desktop computers.",
+				"default": "1150"
+			},
+			{
+				"name": "tablet_width",
+				"type": "Text",
+				"label": "Tablet Width",
+				"tooltip": "Specify the browser width when tablet.css is loaded. We recommend 800 pixels.",
+				"default": "1030"
+			},
+			{
+				"name": "small_tablet_width",
+				"type": "Text",
+				"label": "Small Tablet Width",
+				"tooltip": "Specify the browser width when tablet.small.css is loaded. We recommend 820 pixels.",
+				"default": "820"
+			},
+			{
+				"name": "mobile_width",
+				"type": "Text",
+				"label": "Mobile Width",
+				"tooltip": "Specify the browser width when mobile.css is loaded. We recommend 480 pixels",
+				"default": "580"
+			},
+			{
+				"name": "head_code",
+				"type": "Textarea",
+				"label": "Code for the HEAD section",
+				"tooltip": "You can specify the code which will be added at the end of the HEAD section - it is useful when you need to add some additional metatags, scripts etc.",
+				"default": ""
+			},
+			{
+				"name": "footer_code",
+				"type": "Textarea",
+				"label": "Code for the footer section",
+				"tooltip": "You can specify the code which will be added before closing body tag - it is useful when you need to add some additional scripts, trackers etc.",
+				"default": ""
+			},
+			{
+				"name": "frontpage_explained",
+				"type": "TextBlock",
+				"label": "Settings connected with the frontpage layout"
+			},
+			{
+				"name": "override_frontpage",
+				"type": "Switcher",
+				"label": "Override frontpage layout",
+				"tooltip": "Enable settings connected with another layout for the homepage.",
+				"default": "Y"
+			},
+			{
+				"name": "frontpage_sidebar_left_width",
+				"type": "Text",
+				"label": "Sidebar Left Width",
+				"tooltip": "Specify the width of the theme sidebar as a percentage (for the homepage)",
+				"default": "30",
+				"visibility": "override_frontpage=Y"
+			},
+			{
+				"name": "frontpage_sidebar_right_width",
+				"type": "Text",
+				"label": "Sidebar Right Width",
+				"tooltip": "Specify the width of the theme homepage inset column as a percentage",
+				"default": "27",
+				"visibility": "override_frontpage=Y"
+			}
+		]
+	}
+]

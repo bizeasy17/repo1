@@ -1,0 +1,201 @@
+[	
+	{
+		"name": "Banner Top",
+		"id": "banner-top",
+		"description": "Widgets area in the top right corner of the website",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Social",
+		"id": "social",
+		"description": "Widgets area for the social buttons",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Updates Area",
+		"id": "updates",
+		"description": "Widgets area for the updates block",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Highlights Area",
+		"id": "highlights",
+		"description": "Widgets area for the highlighter widget",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Search Area",
+		"id": "search",
+		"description": "Widgets area for the search widget",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},	
+	{
+		"name": "Sidebar Left",
+		"id": "sidebar_left",
+		"description": "Sidebar left column",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>"
+	},	
+	{
+		"name": "Sidebar Right",
+		"id": "sidebar_right",
+		"description": "Sidebar right column",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>"
+	},
+	{
+		"name": "Banner Left",
+		"id": "banner_left",
+		"description": "Widgets area for the banners",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "2"
+	},
+	{
+		"name": "Banner Right",
+		"id": "banner_right",
+		"description": "Widgets area for the banners",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "2"
+	},
+	{
+		"name": "Top widgets I",
+		"id": "top1",
+		"description": "Widgets area on under the header of website",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "4"
+	},
+	{
+		"name": "Top widgets II",
+		"id": "top2",
+		"description": "Widgets area on under the header of website",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "4"
+	},
+	{
+		"name": "Inset",
+		"id": "inner_inset",
+		"description": "Inset column",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>"
+	},		
+	{
+		"name": "Mainbody Top",
+		"id": "mainbody_top",
+		"description": "Block directly over mainbody",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>"
+	},
+	{
+		"name": "Mainbody",
+		"id": "mainbody",
+		"description": "Widgets area used only if is enabled in the theme options instead of showing posts",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>"
+	},
+	{
+		"name": "Mainbody Bottom",
+		"id": "mainbody_bottom",
+		"description": "Block directly under mainbody",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>"
+	},
+	{
+		"name": "Bottom I widgets",
+		"id": "bottom1",
+		"description": "Widgets area over the footer area",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "6"
+	},
+	{
+		"name": "Bottom II widgets",
+		"id": "bottom2",
+		"description": "Widgets area over the footer area",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "6"
+	},
+	{
+		"name": "Bottom III widgets",
+		"id": "bottom3",
+		"description": "Widgets area over the footer area",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "6"
+	},
+	{
+		"name": "Bottom IV widgets",
+		"id": "bottom4",
+		"description": "Widgets area over the footer area",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "6"
+	},
+	{
+		"name": "Bottom V widgets",
+		"id": "bottom5",
+		"description": "Widgets area over the footer area",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "6"
+	},
+	{
+		"name": "Newsletter",
+		"id": "newsletter",
+		"description": "Widgets area for the newsletter widget",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "2"
+	}
+]

@@ -1,0 +1,216 @@
+[
+	{
+		"groupname": "Features settings",
+		"groupdesc": "Parameters for theme features are configured here.",
+		"fields": [
+			{
+				"name": "widget_rules_state",
+				"type": "Switcher",
+				"label": "Widget rules",
+				"tooltip": "Enable widget rules used to disable specific widgets on selected pages or for specific groups of users.",
+				"default": "Y"
+			},
+			{
+				"name": "featured_video",
+				"type": "Switcher",
+				"label": "Featured Video",
+				"tooltip": "Enable featured video metabox on pages and posts.",
+				"default": "Y"
+			},
+			{
+				"name": "styleswitcher_state",
+				"type": "Switcher",
+				"label": "Style Switcher Display",
+				"tooltip": "Enable display of the styleswitcher in the theme.",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "login_link",
+				"type": "Switcher",
+				"label": "Display login link",
+				"tooltip": "Enable display of the login link in the theme.",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "login_url",
+				"type": "Text",
+				"label": "Login URL",
+				"tooltip": "Specify the URL used in the login link",
+				"default": "wp-login.php?action=login",
+				"class": "",
+				"visibility": "login_link=Y"
+			},
+			{
+				"name": "template_footer_top_button",
+				"type": "Switcher",
+				"label": "Display Back to top button ",
+				"tooltip": "Enable display of Back to top button in the footer of the theme.",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "ga_ua_id",
+				"type": "Text",
+				"label": "Google Analytics tracking ID",
+				"tooltip": "Please specify the UA ID i.e. UA-XXXXXX-Y",
+				"default": ""
+			},
+			{
+				"name": "thickbox_state",
+				"type": "Switcher",
+				"label": "Use Thickbox",
+				"tooltip": "Enable use of Thickbox to display post images in the popup.",
+				"default": "Y"
+			},
+			{
+				"name": "comments_explained",
+				"type": "TextBlock",
+				"label": "Settings connected with comments"
+			},
+			{
+				"name": "comments_autoblank",
+				"type": "Switcher",
+				"label": "Add target blank to comments links",
+				"tooltip": "If this option is enabled then every link in the comments text will contain attribute target='_blank'.",
+				"default": "Y"
+			},
+			{
+				"name": "comments_autolinking",
+				"type": "Switcher",
+				"label": "Autolinking in comments",
+				"tooltip": "If this option is enabled then every link in the comments text will be automatically changed into hyperlink.",
+				"default": "Y"
+			},
+			{
+				"name": "opensearch_explained",
+				"type": "TextBlock",
+				"label": "Open Search is an open protocol used to easily integrate your page search with the browser search engines."
+			},
+			{
+				"name": "opensearch_use_opensearch",
+				"type": "Switcher",
+				"label": "Enable support for Open Search",
+				"tooltip": "Enable support for Open Search, which activates an implementation of custom search engines based upon your blog search engines.",
+				"default": "Y"
+			},
+			{
+				"name": "opengraph_explained",
+				"type": "TextBlock",
+				"label": "Open Graph is an open protocol used for better control over content displayed in Facebook."
+			},
+			{
+				"name": "opengraph_use_opengraph",
+				"type": "Switcher",
+				"label": "Enable support for Open Graph",
+				"tooltip": "Enable support for Open Graph, exposing additional options to make your content more readable to Facebook crawlers.",
+				"default": "Y"
+			},
+			{
+				"name": "singlepost_explained",
+				"type": "TextBlock",
+				"label": "Additional options for single post."
+			},
+			{
+				"name": "show_related",
+				"type": "Switcher",
+				"label": "Show Related articles",
+				"tooltip": "Enable block with realted articles underneath tags.",
+				"default": "Y"
+			},
+			{
+				"name": "show_author_posts",
+				"type": "Switcher",
+				"label": "Show Latest articles from this author",
+				"tooltip": "Enable block with articles of the same author.",
+				"default": "Y"
+			},
+			{
+				"name": "category_explained",
+				"type": "TextBlock",
+				"label": "Layout for the category/archive pages."
+			},
+			{
+				"name": "category_grid",
+				"type": "Switcher",
+				"label": "Enable category grid",
+				"tooltip": "Enable grid layout for categories.",
+				"default": "Y"
+			},
+			{
+				"name": "leading_row_column",
+				"type": "RowColumn",
+				"label": "Rows/Columns of leading articles",
+				"tooltip": "Number of rows(type from 1 to 8) and columns(type from 1 to 4) for leading articles.",
+				"default": "2",
+				"class": "",
+				"visibility": "category_grid=Y",
+				"other": {
+					"size": "2",
+					"min": "1",
+					"max_first": "8",
+					"max_second": "4",
+					"step": "1",
+					"first": "rows",
+					"second": "columns"
+				}
+			},
+			{
+				"name": "primary_row_column",
+				"type": "RowColumn",
+				"label": "Rows/Columns of primary articles",
+				"tooltip": "Number of rows(type from 1 to 8) and columns(type from 1 to 4) for primary articles.",
+				"default": "1",
+				"class": "",
+				"visibility": "category_grid=Y",
+				"other": {
+					"size": "2",
+					"min": "1",
+					"max_first": "8",
+					"max_second": "4",
+					"step": "1",
+					"first": "rows",
+					"second": "columns"
+				}
+			},
+			{
+				"name": "secondary_row_column",
+				"type": "RowColumn",
+				"label": "Rows/Columns of secondary articles",
+				"tooltip": "Number of rows(type from 1 to 8) and columns(type from 1 to 4) for secondary articles.",
+				"default": "1",
+				"class": "",
+				"visibility": "category_grid=Y",
+				"other": {
+					"size": "2",
+					"min": "1",
+					"max_first": "8",
+					"max_second": "4",
+					"step": "1",
+					"first": "rows",
+					"second": "columns"
+				}
+			},
+			{
+				"name": "other_cols",
+				"type": "Select",
+				"label": "Columns for other archive views",
+				"tooltip": "Specify amount of columns for tag, author, latest post page.",
+				"default": "3",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"options": {
+						"1": "1 column",
+						"2": "2 columns",
+						"3": "3 columns"
+					}
+				}
+			}
+		]
+	}
+]
